@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prototype1.Views.Zoeken" NavigationPage.HasNavigationBar="False">
+    <StackLayout Padding="10,20,10,20">
+        <Label Text="Doggo List" TextColor="Black" FontAttributes="Bold" FontSize="36" HorizontalOptions="Center"/>
+        <ListView x:Name="DoggoListView" BackgroundColor="White" ItemTapped="DoggoTapped" ItemSelected="DoggoSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ImageCell ImageSource="{Binding Img}" Text="{Binding Name}" Detail="{Binding Care}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

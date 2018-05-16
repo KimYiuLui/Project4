@@ -1,0 +1,26 @@
+C:\Users\K.Y\Desktop\Prototype1\Prototype1\Prototype1\bin\Debug\netstandard2.0\Prototype1.deps.json
+C:\Users\K.Y\Desktop\Prototype1\Prototype1\Prototype1\bin\Debug\netstandard2.0\Prototype1.dll
+C:\Users\K.Y\Desktop\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.csprojResolveAssemblyReference.cache
+C:\Users\K.Y\Desktop\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.csproj.CoreCompileInputs.cache
+C:\Users\K.Y\Desktop\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.AssemblyInfoInputs.cache
+C:\Users\K.Y\Desktop\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.AssemblyInfo.cs
+C:\Users\K.Y\Desktop\Prototype1\Prototype1\Prototype1\bin\Debug\netstandard2.0\Prototype1.pdb
+C:\Users\K.Y\Desktop\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.Views.App.xaml.g.cs
+C:\Users\K.Y\Desktop\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.Views.DoggoDetail.xaml.g.cs
+C:\Users\K.Y\Desktop\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.Views.MainPage.xaml.g.cs
+C:\Users\K.Y\Desktop\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.Views.Zoeken.xaml.g.cs
+C:\Users\K.Y\Desktop\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.dll
+C:\Users\K.Y\Desktop\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.pdb
+C:\Users\KimYiuLui\Desktop\project 4\Prototype1\Prototype1\Prototype1\bin\Debug\netstandard2.0\Prototype1.deps.json
+C:\Users\KimYiuLui\Desktop\project 4\Prototype1\Prototype1\Prototype1\bin\Debug\netstandard2.0\Prototype1.dll
+C:\Users\KimYiuLui\Desktop\project 4\Prototype1\Prototype1\Prototype1\bin\Debug\netstandard2.0\Prototype1.pdb
+C:\Users\KimYiuLui\Desktop\project 4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.csproj.CoreCompileInputs.cache
+C:\Users\KimYiuLui\Desktop\project 4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.Views.App.xaml.g.cs
+C:\Users\KimYiuLui\Desktop\project 4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.Views.DoggoDetail.xaml.g.cs
+C:\Users\KimYiuLui\Desktop\project 4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.Views.MainPage.xaml.g.cs
+C:\Users\KimYiuLui\Desktop\project 4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.Views.Zoeken.xaml.g.cs
+C:\Users\KimYiuLui\Desktop\project 4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.AssemblyInfoInputs.cache
+C:\Users\KimYiuLui\Desktop\project 4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.AssemblyInfo.cs
+C:\Users\KimYiuLui\Desktop\project 4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.dll
+C:\Users\KimYiuLui\Desktop\project 4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.pdb
+C:\Users\KimYiuLui\Desktop\project 4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.csprojResolveAssemblyReference.cache
