@@ -1,19 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Prototype1.Views.DoggoDetail">
+             x:Class="Prototype1.Views.DoggoDetail" BackgroundImage="Background.png">
     <StackLayout Padding="10,20,10,20" >
         <Label Text="{Binding Name}" HorizontalOptions="Center" TextColor="Black" FontSize="26" FontAttributes="Bold"/>
         <Image Source="{Binding Img}" HorizontalOptions="Center" HeightRequest="220" WidthRequest="250"/>
     
         <ScrollView HorizontalOptions="Center" Padding="10,20,10,20">
                 <StackLayout>
-                    <Label Text="Algemene Info" FontAttributes="Bold"/>
-                    <Label Text="{Binding Description}" Margin="0,0,0,10"/>
-                    <Label Text="Karakter" FontAttributes="Bold"/>
-                    <Label Text="{Binding Behaviour}" Margin="0,0,0,10"/>
-                    <Label Text="Verzorging" FontAttributes="Bold"/>
-                    <Label Text="{Binding Care}" Margin="0,0,0,10"/>
+                        <Label Text="Types" FontAttributes="Bold"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding TypeOne}" Margin="0,0,0,10"/>
+                        <Label Text="{Binding TypeTwo}" Margin="0,0,0,10"/>
+                    </StackLayout>
+                        <Label Text="ExerciseData" FontAttributes="Bold"/>
+                        <Label Text="{Binding Exercise}" Margin="0,0,0,10"/>
+                        <Label Text="CareData" FontAttributes="Bold"/>
+                        <Label Text="{Binding Care}" Margin="0,0,0,10"/>
+                    
+                        <Label Text="FurData" FontAttributes="Bold"/>
+                        <Label Text="{Binding Fur}" Margin="0,0,0,10"/>
+                        <Label Text="ColorData" FontAttributes="Bold"/>
+                        <Label Text="{Binding Color}" Margin="0,0,0,10"/>
+
+
+                        <Label Text="ChildfriendlyData" FontAttributes="Bold"/>
+                        <Label Text="{Binding ChildFriendly}" Margin="0,0,0,10"/>
+                        <Label Text="TailData" FontAttributes="Bold"/>
+                        <Label Text="{Binding Tail}" Margin="0,0,0,10"/>
+
+
+                        <Label Text="AgeData" FontAttributes="Bold"/>
+                        <Label Text="{Binding Age}" Margin="0,0,0,10"/>
+                        <Label Text="WeightData" FontAttributes="Bold"/>
+                        <Label Text="{Binding Weight}" Margin="0,0,0,10"/>
+                    
+                        <Label Text="HeightData" FontAttributes="Bold"/>
+                        <Label Text="{Binding Height}" Margin="0,0,0,10"/>
+                        <Label Text="KarakterData" FontAttributes="Bold"/>
+                        <Label Text="{Binding Karakter}" Margin="0,0,0,10"/>
+
+                        <Label Text="FavData" FontAttributes="Bold"/>
+                        <Label Text="{Binding Fav}" Margin="0,0,0,10"/>
+
+                        <Label Text="Algemeen" FontAttributes="Bold"/>
+                        <Label Text="{Binding InfoGeneral}" Margin="0,0,0,10"/>
+                        <Label Text="Karakter" FontAttributes="Bold"/>
+                        <Label Text="{Binding InfoBehaviour}" Margin="0,0,0,10"/>
+                        <Label Text="Verzorging" FontAttributes="Bold"/>
+                        <Label Text="{Binding InfoCare}" Margin="0,0,0,10"/>
                 </StackLayout>
         </ScrollView>
     </StackLayout>
