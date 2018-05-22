@@ -13,42 +13,53 @@
                         <Label Text="{Binding TypeOne}" Margin="0,0,0,10"/>
                         <Label Text="{Binding TypeTwo}" Margin="0,0,0,10"/>
                     </StackLayout>
-                        <Label Text="ExerciseData" FontAttributes="Bold"/>
-                        <Label Text="{Binding Exercise}" Margin="0,0,0,10"/>
-                        <Label Text="CareData" FontAttributes="Bold"/>
-                        <Label Text="{Binding Care}" Margin="0,0,0,10"/>
-                    
-                        <Label Text="FurData" FontAttributes="Bold"/>
-                        <Label Text="{Binding Fur}" Margin="0,0,0,10"/>
-                        <Label Text="ColorData" FontAttributes="Bold"/>
-                        <Label Text="{Binding Color}" Margin="0,0,0,10"/>
-
-
-                        <Label Text="ChildfriendlyData" FontAttributes="Bold"/>
-                        <Label Text="{Binding ChildFriendly}" Margin="0,0,0,10"/>
-                        <Label Text="TailData" FontAttributes="Bold"/>
-                        <Label Text="{Binding Tail}" Margin="0,0,0,10"/>
-
-
-                        <Label Text="AgeData" FontAttributes="Bold"/>
-                        <Label Text="{Binding Age}" Margin="0,0,0,10"/>
-                        <Label Text="WeightData" FontAttributes="Bold"/>
-                        <Label Text="{Binding Weight}" Margin="0,0,0,10"/>
-                    
-                        <Label Text="HeightData" FontAttributes="Bold"/>
-                        <Label Text="{Binding Height}" Margin="0,0,0,10"/>
-                        <Label Text="KarakterData" FontAttributes="Bold"/>
-                        <Label Text="{Binding Karakter}" Margin="0,0,0,10"/>
-
-                        <Label Text="FavData" FontAttributes="Bold"/>
-                        <Label Text="{Binding Fav}" Margin="0,0,0,10"/>
-
                         <Label Text="Algemeen" FontAttributes="Bold"/>
                         <Label Text="{Binding InfoGeneral}" Margin="0,0,0,10"/>
+                    
                         <Label Text="Karakter" FontAttributes="Bold"/>
                         <Label Text="{Binding InfoBehaviour}" Margin="0,0,0,10"/>
+
+                        <Label Text="Beweging" FontAttributes="Bold"/>
+                        <Label Text="{Binding InfoExercise}" Margin="0,0,0,10"/>
+
                         <Label Text="Verzorging" FontAttributes="Bold"/>
                         <Label Text="{Binding InfoCare}" Margin="0,0,0,10"/>
+
+                        <Label Text="Kindvriendelijkheid" FontAttributes="Bold"/>
+                        <Label Text="{Binding ChildFriendly}" Margin="0,0,0,10"/>
+
+                         <Label Text="Vacht" FontAttributes="Bold"/>
+                        <Label Text="{Binding Fur}" Margin="0,0,0,10"/>
+                    
+                        <Label Text="Kleur" FontAttributes="Bold"/>
+                        <Label Text="{Binding Color}" Margin="0,0,0,10"/>
+
+                    
+                        <Label Text="Staart" FontAttributes="Bold"/>
+                        <Label Text="{Binding Tail}" Margin="0,0,0,10"/>
+
+                        <Label Text="Gemiddelde leeftjd" FontAttributes="Bold"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Age}" Margin="0,0,0,10"/>
+                            <Label Text="jaar oud" Margin="0,0,0,10"/>
+                        </StackLayout>
+
+
+                        <Label Text="Gemiddelde lengte" FontAttributes="Bold"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Weight}" Margin="0,0,0,10"/>
+                            <Label Text="kg" Margin="0,0,0,10"/>
+                        </StackLayout>
+
+                        <Label Text="Gemiddelde lengte" FontAttributes="Bold"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Height}" Margin="0,0,0,10"/>
+                            <Label Text="cm" Margin="0,0,0,10"/>
+                        </StackLayout>
+
+
+
+
                 </StackLayout>
         </ScrollView>
     </StackLayout>

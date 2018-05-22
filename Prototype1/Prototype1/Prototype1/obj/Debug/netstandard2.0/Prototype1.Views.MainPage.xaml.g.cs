@@ -11,7 +11,8 @@
 namespace Prototype1 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\K.Y\\Desktop\\Prototype1\\Prototype1\\Prototype1\\Views\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\VALERIUS\\Documents\\GitHub\\Project4\\Prototype1\\Prototype1\\Prototype1\\View" +
+        "s\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

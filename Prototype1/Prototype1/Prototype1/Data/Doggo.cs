@@ -14,6 +14,7 @@ namespace Prototype1.Data
         public string Name { get; set; }
         public string InfoGeneral { get; set; }
         public string InfoBehaviour { get; set; }
+        public string InfoExercise { get; set; }
         public string InfoCare { get; set; }
         public string TypeOne { get; set; }
         public string TypeTwo { get; set; }

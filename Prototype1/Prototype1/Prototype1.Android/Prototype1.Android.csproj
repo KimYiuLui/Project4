@@ -65,6 +65,7 @@
   <ItemGroup>
     <AndroidAsset Include="Assets\Doggo.db" />
     <AndroidAsset Include="Assets\DoggoDB.db" />
+    <AndroidAsset Include="Assets\NewDoggoDB.db" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>

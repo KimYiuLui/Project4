@@ -19,7 +19,7 @@ namespace Prototype1
         async void ZoekBtnClicked(object sender, System.EventArgs e)
         {
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            var dbPath = Path.Combine(targetPath, "DoggoDB.db");
+            var dbPath = Path.Combine(targetPath, "NewDoggoDB.db");
             await Navigation.PushAsync(new Zoeken(dbPath));
         }
         void TestBtnClicked(object sender, System.EventArgs e)

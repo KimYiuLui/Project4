@@ -11,7 +11,8 @@
 namespace Prototype1.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\K.Y\\Desktop\\Prototype1\\Prototype1\\Prototype1\\Views\\DoggoDetail.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\VALERIUS\\Documents\\GitHub\\Project4\\Prototype1\\Prototype1\\Prototype1\\View" +
+        "s\\DoggoDetail.xaml")]
     public partial class DoggoDetail : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
