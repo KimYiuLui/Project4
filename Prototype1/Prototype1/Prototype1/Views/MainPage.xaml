@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:Prototype1"
              x:Class="Prototype1.MainPage" NavigationPage.HasNavigationBar="False" BackgroundImage="Background.png">
     <StackLayout x:Name="MasterLayout" Spacing="20" Padding="0,5,0,0">
-        <Image Source="Logo.png" Margin="50,0,50,0" WidthRequest="200" HeightRequest="200"/>
+        <Image Source="Logo.png" Margin="50,20,50,20" WidthRequest="200" HeightRequest="200"/>
         <StackLayout x:Name="LogoField" Padding="0,0,0,0">
             <Button Text="Zoeken" Clicked="ZoekBtnClicked"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
@@ -18,7 +18,7 @@
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center"
                     WidthRequest="200" Margin="0,5,0,0"/>
-            <Button Text="Setting" Clicked="SettingBtnClicked"
+            <Button Text="Instellingen" Clicked="SettingBtnClicked"
                 BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                 HorizontalOptions="Center" VerticalOptions="Center" 
                 WidthRequest="200" Margin="0,5,0,0"/>

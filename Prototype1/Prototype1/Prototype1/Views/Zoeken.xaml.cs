@@ -48,6 +48,5 @@ namespace Prototype1.Views
 
             }
         }
-
     }
 }

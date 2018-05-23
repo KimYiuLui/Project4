@@ -24,11 +24,6 @@ namespace Prototype1.Droid
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
-		public static void UpdateIdValues()
-		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Prototype1.Droid.Resource.Attribute.actionBarSize;
-		}
-		
 		public partial class Animation
 		{
 			
@@ -2328,7 +2323,79 @@ namespace Prototype1.Droid
 			public static int abc_vector_test = 2131296339;
 			
 			// aapt resource value: 0
+			public static int Affenpinscher = 0;
+			
+			// aapt resource value: 0
+			public static int AfghaanseWindhond = 0;
+			
+			// aapt resource value: 0
+			public static int Aidi = 0;
+			
+			// aapt resource value: 0
+			public static int AiredaleTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int AlaskaMalamute = 0;
+			
+			// aapt resource value: 0
+			public static int AlpenlandischeDachsbracke = 0;
+			
+			// aapt resource value: 0
 			public static int AltentejoMastiff = 0;
+			
+			// aapt resource value: 0
+			public static int AmericanFoxhound = 0;
+			
+			// aapt resource value: 0
+			public static int AmerikaanseAkita = 0;
+			
+			// aapt resource value: 0
+			public static int AmerikaanseBulldog = 0;
+			
+			// aapt resource value: 0
+			public static int AmerikaanseCockerspaniel = 0;
+			
+			// aapt resource value: 0
+			public static int AmerikaanseNaakthond = 0;
+			
+			// aapt resource value: 0
+			public static int AmerikaansePitbullTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int AmerikaanseStaffordshireTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int AmerikaanseToyTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int AmerikaanseWaterSpaniel = 0;
+			
+			// aapt resource value: 0
+			public static int AnatolischeHerder = 0;
+			
+			// aapt resource value: 0
+			public static int AngloFrancaisDePetitVenerie = 0;
+			
+			// aapt resource value: 0
+			public static int AppenzellerSennenhond = 0;
+			
+			// aapt resource value: 0
+			public static int Ariegeois = 0;
+			
+			// aapt resource value: 0
+			public static int AustralianLabradoodle = 0;
+			
+			// aapt resource value: 0
+			public static int AustralianStumpyTailCattleDog = 0;
+			
+			// aapt resource value: 0
+			public static int AustralischeHerder = 0;
+			
+			// aapt resource value: 0
+			public static int AustralischeSilkyTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int AustralischeVeedrijvershond = 0;
 			
 			// aapt resource value: 2131296340
 			public static int avd_hide_password = 2131296340;
@@ -2338,6 +2405,237 @@ namespace Prototype1.Droid
 			
 			// aapt resource value: 0
 			public static int Background = 0;
+			
+			// aapt resource value: 0
+			public static int Barbet = 0;
+			
+			// aapt resource value: 0
+			public static int Barzoi = 0;
+			
+			// aapt resource value: 0
+			public static int Basenji = 0;
+			
+			// aapt resource value: 0
+			public static int BassetArtesienNormand = 0;
+			
+			// aapt resource value: 0
+			public static int BassetBleuDeGascogne = 0;
+			
+			// aapt resource value: 0
+			public static int BassetFauveDeBretagne = 0;
+			
+			// aapt resource value: 0
+			public static int BassetHond = 0;
+			
+			// aapt resource value: 0
+			public static int Beagle = 0;
+			
+			// aapt resource value: 0
+			public static int BeagleHarrier = 0;
+			
+			// aapt resource value: 0
+			public static int BeardedCollie = 0;
+			
+			// aapt resource value: 0
+			public static int Beauceron = 0;
+			
+			// aapt resource value: 0
+			public static int BedlingtonTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int BeierseBergzweethond = 0;
+			
+			// aapt resource value: 0
+			public static int BelgischeHerder = 0;
+			
+			// aapt resource value: 0
+			public static int Bergamasco = 0;
+			
+			// aapt resource value: 0
+			public static int BerghondVanDeMaremmenEnAbruzzen = 0;
+			
+			// aapt resource value: 0
+			public static int BernerLaufhund = 0;
+			
+			// aapt resource value: 0
+			public static int BernerSennenhond = 0;
+			
+			// aapt resource value: 0
+			public static int BichonFrise = 0;
+			
+			// aapt resource value: 0
+			public static int Billy = 0;
+			
+			// aapt resource value: 0
+			public static int BlackAndTanCoonhound = 0;
+			
+			// aapt resource value: 0
+			public static int Bloedhond = 0;
+			
+			// aapt resource value: 0
+			public static int Boerboel = 0;
+			
+			// aapt resource value: 0
+			public static int Boerenfox = 0;
+			
+			// aapt resource value: 0
+			public static int Bolognezer = 0;
+			
+			// aapt resource value: 0
+			public static int Bordeauxdog = 0;
+			
+			// aapt resource value: 0
+			public static int Bordercollie = 0;
+			
+			// aapt resource value: 0
+			public static int BorderTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int BosanskiOstrodlakiGonicBarak = 0;
+			
+			// aapt resource value: 0
+			public static int BostonTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int BouvierDesArdennes = 0;
+			
+			// aapt resource value: 0
+			public static int BouvierDesFlandres = 0;
+			
+			// aapt resource value: 0
+			public static int Boxer = 0;
+			
+			// aapt resource value: 0
+			public static int BraccoItaliano = 0;
+			
+			// aapt resource value: 0
+			public static int Brandlbracke = 0;
+			
+			// aapt resource value: 0
+			public static int BraqueDAuvergne = 0;
+			
+			// aapt resource value: 0
+			public static int BraqueDeLAriege = 0;
+			
+			// aapt resource value: 0
+			public static int BraqueDuBourbonnais = 0;
+			
+			// aapt resource value: 0
+			public static int BraqueFrancaisTypeGascogne = 0;
+			
+			// aapt resource value: 0
+			public static int BraqueFrancaisTypePyrenees = 0;
+			
+			// aapt resource value: 0
+			public static int BraqueSaintGermain = 0;
+			
+			// aapt resource value: 0
+			public static int BraziliaanseTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int Briard = 0;
+			
+			// aapt resource value: 0
+			public static int BriquetGriffonVendeen = 0;
+			
+			// aapt resource value: 0
+			public static int Broholmer = 0;
+			
+			// aapt resource value: 0
+			public static int BullMastiff = 0;
+			
+			// aapt resource value: 0
+			public static int BullTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int CaDeBestiar = 0;
+			
+			// aapt resource value: 0
+			public static int CaDeBou = 0;
+			
+			// aapt resource value: 0
+			public static int CairnTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int CaneCorso = 0;
+			
+			// aapt resource value: 0
+			public static int CaoDaSerraDaEstrela = 0;
+			
+			// aapt resource value: 0
+			public static int CaoDaSerraDeAires = 0;
+			
+			// aapt resource value: 0
+			public static int CaoDeCastroLaboreiro = 0;
+			
+			// aapt resource value: 0
+			public static int CaoDeFilaDeSaoMiguel = 0;
+			
+			// aapt resource value: 0
+			public static int CavalierKingCharlesSpaniel = 0;
+			
+			// aapt resource value: 0
+			public static int CentraalAziatischeOwcharka = 0;
+			
+			// aapt resource value: 0
+			public static int CeskyFousek = 0;
+			
+			// aapt resource value: 0
+			public static int CeskyTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int ChartPolski = 0;
+			
+			// aapt resource value: 0
+			public static int ChesapeakeBayRetriever = 0;
+			
+			// aapt resource value: 0
+			public static int ChienDArtois = 0;
+			
+			// aapt resource value: 0
+			public static int Chihuahua = 0;
+			
+			// aapt resource value: 0
+			public static int ChineseNaakthond = 0;
+			
+			// aapt resource value: 0
+			public static int ChodskyPes = 0;
+			
+			// aapt resource value: 0
+			public static int ChowChow = 0;
+			
+			// aapt resource value: 0
+			public static int CimarronUruguayo = 0;
+			
+			// aapt resource value: 0
+			public static int CiobanescRomanescCarpatin = 0;
+			
+			// aapt resource value: 0
+			public static int CirnecoDellEtna = 0;
+			
+			// aapt resource value: 0
+			public static int ClumberSpaniel = 0;
+			
+			// aapt resource value: 0
+			public static int CotonDeTulear = 0;
+			
+			// aapt resource value: 0
+			public static int CrnogorskiPlaninskiGonic = 0;
+			
+			// aapt resource value: 0
+			public static int CurlyCoatedRetriever = 0;
+			
+			// aapt resource value: 0
+			public static int Dalmatier = 0;
+			
+			// aapt resource value: 0
+			public static int DandieDinmontTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int Dashond = 0;
+			
+			// aapt resource value: 0
+			public static int Deerhound = 0;
 			
 			// aapt resource value: 2131296342
 			public static int design_bottom_navigation_item_background = 2131296342;
@@ -2358,13 +2656,235 @@ namespace Prototype1.Droid
 			public static int design_snackbar_background = 2131296347;
 			
 			// aapt resource value: 0
+			public static int Dobermann = 0;
+			
+			// aapt resource value: 0
+			public static int DogoArgentino = 0;
+			
+			// aapt resource value: 0
+			public static int DogoCanario = 0;
+			
+			// aapt resource value: 0
+			public static int DrentschePatrijshond = 0;
+			
+			// aapt resource value: 0
+			public static int Drever = 0;
+			
+			// aapt resource value: 0
+			public static int DuitseBrak = 0;
+			
+			// aapt resource value: 0
+			public static int DuitseDog = 0;
+			
+			// aapt resource value: 0
+			public static int DuitseHerder = 0;
+			
+			// aapt resource value: 0
+			public static int DuitseJachtTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int DuitsePinscher = 0;
+			
+			// aapt resource value: 0
+			public static int DuitseStaandeHondDraadhaar = 0;
+			
+			// aapt resource value: 0
+			public static int DuitseStaandeHondKorthaar = 0;
+			
+			// aapt resource value: 0
+			public static int DuitseStaandeHondLanghaar = 0;
+			
+			// aapt resource value: 0
+			public static int DuitseStaandeHondStekelhaar = 0;
+			
+			// aapt resource value: 0
+			public static int DuitseWachtelhond = 0;
+			
+			// aapt resource value: 0
+			public static int Dunker = 0;
+			
+			// aapt resource value: 0
+			public static int Dwergpinscher = 0;
+			
+			// aapt resource value: 0
 			public static int DwergPoedel = 0;
+			
+			// aapt resource value: 0
+			public static int Dwergschnauzer = 0;
+			
+			// aapt resource value: 0
+			public static int EngelseBulldog = 0;
+			
+			// aapt resource value: 0
+			public static int EngelseCockerSpaniel = 0;
+			
+			// aapt resource value: 0
+			public static int EngelseSetter = 0;
+			
+			// aapt resource value: 0
+			public static int EngelseSpringerSpaniel = 0;
+			
+			// aapt resource value: 0
+			public static int EngelseToyTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int EntlebucherSennenhond = 0;
+			
+			// aapt resource value: 0
+			public static int EpagneulBleuDePicardie = 0;
+			
+			// aapt resource value: 0
+			public static int EpagneulBreton = 0;
+			
+			// aapt resource value: 0
+			public static int EpagneulDePontAudemer = 0;
+			
+			// aapt resource value: 0
+			public static int EpagneulFrancais = 0;
+			
+			// aapt resource value: 0
+			public static int EpagneulNainContinental = 0;
+			
+			// aapt resource value: 0
+			public static int EpagneulPicard = 0;
+			
+			// aapt resource value: 0
+			public static int Erdelyikopo = 0;
+			
+			// aapt resource value: 0
+			public static int Eurasier = 0;
+			
+			// aapt resource value: 0
+			public static int FieldSpaniel = 0;
+			
+			// aapt resource value: 0
+			public static int FilaBrasileiro = 0;
+			
+			// aapt resource value: 0
+			public static int FinseBrak = 0;
 			
 			// aapt resource value: 0
 			public static int FinseLappenhond = 0;
 			
 			// aapt resource value: 0
+			public static int FinseSpits = 0;
+			
+			// aapt resource value: 0
+			public static int FlatcoatedRetriever = 0;
+			
+			// aapt resource value: 0
+			public static int Foxhound = 0;
+			
+			// aapt resource value: 0
+			public static int FoxTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int FrancaisBlancEtNoir = 0;
+			
+			// aapt resource value: 0
+			public static int FrancaisBlancEtOrange = 0;
+			
+			// aapt resource value: 0
+			public static int FrancaisTricolore = 0;
+			
+			// aapt resource value: 0
+			public static int FranseBulldog = 0;
+			
+			// aapt resource value: 0
+			public static int GalgoEspanol = 0;
+			
+			// aapt resource value: 0
+			public static int GammelDanskHonsehund = 0;
+			
+			// aapt resource value: 0
+			public static int GoldenRetriever = 0;
+			
+			// aapt resource value: 0
+			public static int GonczyPolski = 0;
+			
+			// aapt resource value: 0
+			public static int GordonSetter = 0;
+			
+			// aapt resource value: 0
+			public static int GosDAtura = 0;
+			
+			// aapt resource value: 0
+			public static int GrandAngloFrancaisBlancEtNoir = 0;
+			
+			// aapt resource value: 0
+			public static int GrandAngloFrancaisBlancEtOrange = 0;
+			
+			// aapt resource value: 0
+			public static int GrandAngloFrancaisTricolore = 0;
+			
+			// aapt resource value: 0
+			public static int GrandBassetGriffonVendeen = 0;
+			
+			// aapt resource value: 0
+			public static int GrandBleuDeGascogne = 0;
+			
+			// aapt resource value: 0
+			public static int GrandGasconSaintongeois = 0;
+			
+			// aapt resource value: 0
+			public static int GrandGriffonVendeen = 0;
+			
+			// aapt resource value: 0
+			public static int Greyhound = 0;
+			
+			// aapt resource value: 0
+			public static int GriffonBelge = 0;
+			
+			// aapt resource value: 0
+			public static int GriffonBleuDeGascogne = 0;
+			
+			// aapt resource value: 0
+			public static int GriffonBruxellois = 0;
+			
+			// aapt resource value: 0
+			public static int GriffonFauveDeBretagne = 0;
+			
+			// aapt resource value: 0
+			public static int GriffonKorthals = 0;
+			
+			// aapt resource value: 0
+			public static int GriffonNivernais = 0;
+			
+			// aapt resource value: 0
+			public static int Groenendaeler = 0;
+			
+			// aapt resource value: 0
+			public static int GroenlandseHond = 0;
+			
+			// aapt resource value: 0
+			public static int GroteMunsterlander = 0;
+			
+			// aapt resource value: 0
 			public static int GrotePoedel = 0;
+			
+			// aapt resource value: 0
+			public static int GroteZwitserseSennenhond = 0;
+			
+			// aapt resource value: 0
+			public static int Haldenstovare = 0;
+			
+			// aapt resource value: 0
+			public static int HamiltonStovare = 0;
+			
+			// aapt resource value: 0
+			public static int HannoveraanseZweethond = 0;
+			
+			// aapt resource value: 0
+			public static int Harrier = 0;
+			
+			// aapt resource value: 0
+			public static int Havanezer = 0;
+			
+			// aapt resource value: 0
+			public static int HellinikosIchnilatis = 0;
+			
+			// aapt resource value: 0
+			public static int HokkaidoDog = 0;
 			
 			// aapt resource value: 0
 			public static int HollandseHerder = 0;
@@ -3498,7 +4018,7 @@ namespace Prototype1.Droid
 			public static int WelshCorgi = 0;
 			
 			// aapt resource value: 0
-			public static int WelshSpringerSpaniël = 0;
+			public static int WelshSpringerSpaniel = 0;
 			
 			// aapt resource value: 0
 			public static int WelshTerrier = 0;
@@ -3510,6 +4030,9 @@ namespace Prototype1.Droid
 			public static int WestHighlandWhiteTerrier = 0;
 			
 			// aapt resource value: 0
+			public static int WestSiberischeLaika = 0;
+			
+			// aapt resource value: 0
 			public static int Wetterhoun = 0;
 			
 			// aapt resource value: 0
@@ -3517,6 +4040,9 @@ namespace Prototype1.Droid
 			
 			// aapt resource value: 0
 			public static int YorkshireTerrier = 0;
+			
+			// aapt resource value: 0
+			public static int ZuidOostEuropeseHerder = 0;
 			
 			// aapt resource value: 0
 			public static int ZuidRussischeOwcharka = 0;
