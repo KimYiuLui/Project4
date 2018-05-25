@@ -32,3 +32,12 @@ C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\n
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.AssemblyInfo.cs
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.dll
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.pdb
+C:\Users\Imre\Documents\GitHub\Project4\Prototype1\Prototype1\Prototype1\bin\Debug\netstandard2.0\Prototype1.deps.json
+C:\Users\Imre\Documents\GitHub\Project4\Prototype1\Prototype1\Prototype1\bin\Debug\netstandard2.0\Prototype1.dll
+C:\Users\Imre\Documents\GitHub\Project4\Prototype1\Prototype1\Prototype1\bin\Debug\netstandard2.0\Prototype1.pdb
+C:\Users\Imre\Documents\GitHub\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.csproj.CoreCompileInputs.cache
+C:\Users\Imre\Documents\GitHub\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.AssemblyInfoInputs.cache
+C:\Users\Imre\Documents\GitHub\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.AssemblyInfo.cs
+C:\Users\Imre\Documents\GitHub\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.dll
+C:\Users\Imre\Documents\GitHub\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.pdb
+C:\Users\Imre\Documents\GitHub\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.csprojAssemblyReference.cache

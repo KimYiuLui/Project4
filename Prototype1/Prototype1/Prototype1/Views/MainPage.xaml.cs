@@ -22,9 +22,11 @@ namespace Prototype1
             var dbPath = Path.Combine(targetPath, "DogDBOne.db");
             await Navigation.PushAsync(new Zoeken(dbPath));
         }
-        void TestBtnClicked(object sender, System.EventArgs e)
+        async void TestBtnClicked(object sender, System.EventArgs e)
         {
-            DisplayAlert("NOTE", "Currently under construction no action avialable yet.", "OK");
+            string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            var dbPath = Path.Combine(targetPath, "DogDBOne.db");
+            await Navigation.PushAsync(new QuizPage(dbPath));
         }
 
         void RandomBtnClicked(object sender, System.EventArgs e)

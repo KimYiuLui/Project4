@@ -789,11 +789,13 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
+        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -923,20 +925,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KimYiuLui\\.nuget\\packages\\": {}
+    "C:\\Users\\Imre\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KimYiuLui\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1.Android\\Prototype1.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Imre\\Documents\\GitHub\\Project4\\Prototype1\\Prototype1\\Prototype1.Android\\Prototype1.Android.csproj",
       "projectName": "Prototype1.Android",
-      "projectPath": "C:\\Users\\KimYiuLui\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1.Android\\Prototype1.Android.csproj",
-      "packagesPath": "C:\\Users\\KimYiuLui\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KimYiuLui\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1.Android\\obj\\",
+      "projectPath": "C:\\Users\\Imre\\Documents\\GitHub\\Project4\\Prototype1\\Prototype1\\Prototype1.Android\\Prototype1.Android.csproj",
+      "packagesPath": "C:\\Users\\Imre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Imre\\Documents\\GitHub\\Project4\\Prototype1\\Prototype1\\Prototype1.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\KimYiuLui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Imre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -949,8 +951,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\KimYiuLui\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1\\Prototype1.csproj": {
-              "projectPath": "C:\\Users\\KimYiuLui\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1\\Prototype1.csproj"
+            "C:\\Users\\Imre\\Documents\\GitHub\\Project4\\Prototype1\\Prototype1\\Prototype1\\Prototype1.csproj": {
+              "projectPath": "C:\\Users\\Imre\\Documents\\GitHub\\Project4\\Prototype1\\Prototype1\\Prototype1\\Prototype1.csproj"
             }
           }
         }

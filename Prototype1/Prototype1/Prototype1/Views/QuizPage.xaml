@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prototype1.Views.QuizPage" NavigationPage.HasNavigationBar="False" BackgroundImage="Background.png">
+    <StackLayout Padding="10,20,10,20" >
+        <Label Text="Vraag 1 / 10" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
+        <Image Source="Rottweiler.jpg" HorizontalOptions="Center" HeightRequest="220" WidthRequest="250"/>
+
+        <ScrollView HorizontalOptions="Center" Padding="10,20,10,20" IsClippedToBounds="True">
+            <StackLayout>
+                <Button Text="AntwoordA" Clicked="Answer1A"
+                    BorderRadius="10" BorderWidth="1" BorderColor="Black" 
+                    HorizontalOptions="Center" VerticalOptions="Center" 
+                    WidthRequest="200" Margin="0,0,0,0"/>
+                <Button Text="AntwoordB" Clicked="Answer1B"
+                    BorderRadius="10" BorderWidth="1" BorderColor="Black" 
+                    HorizontalOptions="Center" VerticalOptions="Center"
+                    WidthRequest="200" Margin="0,20,0,0"/>
+                <Button Text="AntwoordC" Clicked="Answer1C"
+                    BorderRadius="10" BorderWidth="1" BorderColor="Black" 
+                    HorizontalOptions="Center" VerticalOptions="Center" 
+                    WidthRequest="200" Margin="0,20,0,0"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
