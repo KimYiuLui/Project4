@@ -3,87 +3,91 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Prototype1.Views.QuizPage" NavigationPage.HasNavigationBar="False" BackgroundImage="Background.png">
     <StackLayout Padding="10,20,10,20" >
-        <Label x:Name="VraagNummer_Xaml1" Text="Test" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
-        <Label x:Name="VraagNummer_Xaml2" IsVisible="False" Text="Test" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
-        <Label x:Name="VraagNummer_Xaml3" IsVisible="False" Text="Test" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
-        <Label x:Name="VraagNummer_Xaml4" IsVisible="False" Text="Test" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
-        <Label x:Name="VraagNummer_Xaml5" IsVisible="False" Text="Test" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
-        <Label x:Name="VraagNummer_Xaml6" IsVisible="False" Text="Test" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
-        <Label x:Name="VraagNummer_Xaml7" IsVisible="False" Text="Test" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
-        <Label x:Name="VraagNummer_Xaml8" IsVisible="False" Text="Test" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
-        <Label x:Name="VraagNummer_Xaml9" IsVisible="False" Text="Test" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
-        <Label x:Name="VraagNummer_Xaml10" IsVisible="False" Text="Test" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
+        <Label x:Name="VraagNummer_Xaml1" Text="Hoeveel verzorging is genoeg?" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
+        <Label x:Name="VraagNummer_Xaml2" IsVisible="False" Text="Wat is uw gewenste soort hond?" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
+        <Label x:Name="VraagNummer_Xaml3" IsVisible="False" Text="Heeft u kinderen?" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
+        <Label x:Name="VraagNummer_Xaml4" IsVisible="False" Text="Hoeveel beweging?" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
+        <Label x:Name="VraagNummer_Xaml5" IsVisible="False" Text="Wat is uw gewenst karakter voor de hond?" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
+        <!--<Label x:Name="VraagNummer_Xaml6" IsVisible="False" Text="Test5" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
+        <Label x:Name="VraagNummer_Xaml7" IsVisible="False" Text="Test6" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
+        <Label x:Name="VraagNummer_Xaml8" IsVisible="False" Text="Test7" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
+        <Label x:Name="VraagNummer_Xaml9" IsVisible="False" Text="Test8" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
+        <Label x:Name="VraagNummer_Xaml10" IsVisible="False" Text="Test9" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>-->
 
-        <Image Source="Rottweiler.jpg" HorizontalOptions="Center" HeightRequest="220" WidthRequest="250"/>
+        <Image x:Name="Image_Xaml1" Source="Rottweiler.jpg" HorizontalOptions="Center" HeightRequest="220" WidthRequest="250"/>
+        <Image x:Name="Image_Xaml2" IsVisible ="False" Source="Mudi.png" HorizontalOptions="Center" HeightRequest="220" WidthRequest="250"/>
+        <Image x:Name="Image_Xaml3" IsVisible ="False" Source="Mastiff.png" HorizontalOptions="Center" HeightRequest="220" WidthRequest="250"/>
+        <Image x:Name="Image_Xaml4" IsVisible ="False" Source="Mopshond.png" HorizontalOptions="Center" HeightRequest="220" WidthRequest="250"/>
+        <Image x:Name="Image_Xaml5" IsVisible ="False" Source="Leonberger.png" HorizontalOptions="Center" HeightRequest="220" WidthRequest="250"/>
 
         <ScrollView HorizontalOptions="Center" Padding="10,20,10,20" IsClippedToBounds="True">
             <StackLayout>
-                <Button x:Name="Antwoord1A_Xaml"  Text="AntwoordA" Clicked="Answer1A"
+                <Button x:Name="Antwoord1A_Xaml"  Text="Weinig" Clicked="Answer1A"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,0,0,0"/>
-                <Button x:Name="Antwoord1B_Xaml" Text="AntwoordB" Clicked="Answer1B"
+                <Button x:Name="Antwoord1B_Xaml" Text="Gemiddeld" Clicked="Answer1B"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center"
                     WidthRequest="200" Margin="0,20,0,0"/>
-                <Button x:Name="Antwoord1C_Xaml" Text="AntwoordC" Clicked="Answer1C"
+                <Button x:Name="Antwoord1C_Xaml" Text="Veel" Clicked="Answer1C"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,20,0,0"/>
                 <!--2de Vraag-->
-                <Button x:Name="Antwoord2A_Xaml" IsVisible="False"  Text="Antwoord2A" Clicked="Answer2A"
+                <Button x:Name="Antwoord2A_Xaml" IsVisible="False"  Text="Gezeldschap" Clicked="Answer2A"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,0,0,0"/>
-                <Button x:Name="Antwoord2B_Xaml" IsVisible="False" Text="Antwoord2B" Clicked="Answer2B"
+                <Button x:Name="Antwoord2B_Xaml" IsVisible="False" Text="Werk" Clicked="Answer2B"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center"
                     WidthRequest="200" Margin="0,20,0,0"/>
-                <Button x:Name="Antwoord2C_Xaml" IsVisible="False" Text="Antwoord2C" Clicked="Answer2C"
+                <Button x:Name="Antwoord2C_Xaml" IsVisible="False" Text="Jacht" Clicked="Answer2C"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,20,0,0"/>
                 <!--3de Vraag-->
-                <Button x:Name="Antwoord3A_Xaml" IsVisible="False"  Text="Antwoord3A" Clicked="Answer3A"
+                <Button x:Name="Antwoord3A_Xaml" IsVisible="False"  Text="Ja" Clicked="Answer3A"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,0,0,0"/>
-                <Button x:Name="Antwoord3B_Xaml" IsVisible="False" Text="Antwoord3B" Clicked="Answer3B"
+                <Button x:Name="Antwoord3B_Xaml" IsVisible="False" Text="Nee" Clicked="Answer3B"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center"
                     WidthRequest="200" Margin="0,20,0,0"/>
-                <Button x:Name="Antwoord3C_Xaml" IsVisible="False" Text="Antwoord3C" Clicked="Answer3C"
+                <Button x:Name="Antwoord3C_Xaml" IsVisible="False" Text="VERWIJDER DIT" Clicked="Answer3C"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,20,0,0"/>
                 <!--4de Vraag-->
-                <Button x:Name="Antwoord4A_Xaml" IsVisible="False"  Text="Antwoord4A" Clicked="Answer4A"
+                <Button x:Name="Antwoord4A_Xaml" IsVisible="False"  Text="Weinig" Clicked="Answer4A"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,0,0,0"/>
-                <Button x:Name="Antwoord4B_Xaml" IsVisible="False" Text="Antwoord4B" Clicked="Answer4B"
+                <Button x:Name="Antwoord4B_Xaml" IsVisible="False" Text="Gemiddeld" Clicked="Answer4B"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center"
                     WidthRequest="200" Margin="0,20,0,0"/>
-                <Button x:Name="Antwoord4C_Xaml" IsVisible="False" Text="Antwoord4C" Clicked="Answer4C"
+                <Button x:Name="Antwoord4C_Xaml" IsVisible="False" Text="Veel" Clicked="Answer4C"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,20,0,0"/>
                 <!--5de Vraag-->
-                <Button x:Name="Antwoord5A_Xaml" IsVisible="False"  Text="Antwoord5A" Clicked="Answer5A"
+                <Button x:Name="Antwoord5A_Xaml" IsVisible="False"  Text="Waakzaam" Clicked="Answer5A"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,0,0,0"/>
-                <Button x:Name="Antwoord5B_Xaml" IsVisible="False" Text="Antwoord5B" Clicked="Answer5B"
+                <Button x:Name="Antwoord5B_Xaml" IsVisible="False" Text="Aanhankelijk" Clicked="Answer5B"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center"
                     WidthRequest="200" Margin="0,20,0,0"/>
-                <Button x:Name="Antwoord5C_Xaml" IsVisible="False" Text="Antwoord5C" Clicked="Answer5C"
+                <Button x:Name="Antwoord5C_Xaml" IsVisible="False" Text="Anders" Clicked="Answer5C"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,20,0,0"/>
                 <!--6de Vraag-->
-                <Button x:Name="Antwoord6A_Xaml" IsVisible="False"  Text="Antwoord6A" Clicked="Answer6A"
+                <!--<Button x:Name="Antwoord6A_Xaml" IsVisible="False"  Text="Antwoord6A" Clicked="Answer6A"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,0,0,0"/>
@@ -95,7 +99,7 @@
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,20,0,0"/>
-                <!--7de Vraag-->
+                --><!--7de Vraag--><!--
                 <Button x:Name="Antwoord7A_Xaml" IsVisible="False"  Text="Antwoord7A" Clicked="Answer7A"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
@@ -108,7 +112,7 @@
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,20,0,0"/>
-                <!--8de Vraag-->
+                --><!--8de Vraag--><!--
                 <Button x:Name="Antwoord8A_Xaml" IsVisible="False" Text="Antwoord8A" Clicked="Answer8A"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
@@ -121,7 +125,7 @@
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,20,0,0"/>
-                <!--9de Vraag-->
+                --><!--9de Vraag--><!--
                 <Button x:Name="Antwoord9A_Xaml" IsVisible="False"  Text="Antwoord9A" Clicked="Answer9A"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
@@ -134,7 +138,7 @@
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,20,0,0"/>
-                <!--10de Vraag-->
+                --><!--10de Vraag--><!--
                 <Button x:Name="Antwoord10A_Xaml" IsVisible="False"  Text="Antwoor10A" Clicked="Answer10A"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
@@ -146,7 +150,7 @@
                 <Button x:Name="Antwoord10C_Xaml" IsVisible="False" Text="Antwoord10C" Clicked="Answer10C"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
-                    WidthRequest="200" Margin="0,20,0,0"/>
+                    WidthRequest="200" Margin="0,20,0,0"/>-->
             </StackLayout>
         </ScrollView>
     </StackLayout>
