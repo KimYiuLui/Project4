@@ -71,9 +71,6 @@ namespace Prototype1.Views {
         private global::Xamarin.Forms.Button Antwoord3B_Xaml;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Button Antwoord3C_Xaml;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Button Antwoord4A_Xaml;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -112,7 +109,6 @@ namespace Prototype1.Views {
             Antwoord2C_Xaml = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Antwoord2C_Xaml");
             Antwoord3A_Xaml = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Antwoord3A_Xaml");
             Antwoord3B_Xaml = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Antwoord3B_Xaml");
-            Antwoord3C_Xaml = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Antwoord3C_Xaml");
             Antwoord4A_Xaml = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Antwoord4A_Xaml");
             Antwoord4B_Xaml = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Antwoord4B_Xaml");
             Antwoord4C_Xaml = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Antwoord4C_Xaml");
