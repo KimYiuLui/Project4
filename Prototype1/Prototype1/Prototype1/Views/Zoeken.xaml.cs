@@ -2,6 +2,7 @@
 using SQLite;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,18 +16,19 @@ namespace Prototype1.Views
 	{
         private SQLiteAsyncConnection _connection;
         private List<Doggo> _doggos;
+        public Doggo doggo;
 
         public Zoeken(string dbPath)
         {
-            _connection = new SQLiteAsyncConnection(dbPath);
+            _connection = new SQLiteAsyncConnection(dbPath); // make a sqlite connection with the dbPath which is DogDBThree.db
             InitializeComponent();
         }
         protected override async void OnAppearing()
         {
-            await _connection.CreateTableAsync<Doggo>();
-            var doggos = await _connection.Table<Doggo>().ToListAsync();
-            _doggos = new List<Doggo>(doggos);
-            DoggoListView.ItemsSource = _doggos;
+            await _connection.CreateTableAsync<Doggo>(); // create a table in the databasefile. (if it already exist it won't create it)
+            var doggos = await _connection.Table<Doggo>().ToListAsync(); //put everything of the database in a list
+            _doggos = new List<Doggo>(doggos); // make a new list of "Doggo" and put the "doggoss" as the values for the new list
+            DoggoListView.ItemsSource = _doggos; // set the bindingcontext to the data of the dog 
             base.OnAppearing();
         }
 
@@ -38,14 +40,14 @@ namespace Prototype1.Views
         async void DoggoSelected(object sender, SelectedItemChangedEventArgs e)
         {
 
-            var doggo = ((ListView)sender).SelectedItem as Doggo;
-            if (doggo != null)
+            this.doggo = ((ListView)sender).SelectedItem as Doggo;
+            if (this.doggo != null)
             {
-                var page = new DoggoDetail();
-                page.BindingContext = doggo;
-                await Navigation.PushAsync(page);
-
-
+                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                var dbPath = Path.Combine(targetPath, "DogDBThree.db");
+                var page = new DoggoDetail(dbPath, doggo); 
+                page.BindingContext = this.doggo; // set the binding context for the "DoggoDetail" page
+                await Navigation.PushAsync(page); //navigate to "DoggoDetail" and add the dbPath and the selected doggo
             }
         }
     }

@@ -18,6 +18,10 @@
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center"
                     WidthRequest="200" Margin="0,5,0,0"/>
+            <Button Text="Favorieten Lijst" Clicked="FavBtnClicked"
+                    BorderRadius="10" BorderWidth="1" BorderColor="Black" 
+                    HorizontalOptions="Center" VerticalOptions="Center"
+                    WidthRequest="200" Margin="0,5,0,0"/>
             <Button Text="Instellingen" Clicked="SettingBtnClicked"
                 BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                 HorizontalOptions="Center" VerticalOptions="Center" 

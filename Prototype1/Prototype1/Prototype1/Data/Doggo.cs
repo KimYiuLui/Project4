@@ -5,6 +5,8 @@ using System.Text;
 
 namespace Prototype1.Data
 {
+    // this class represents the NewDoggo table in DogDBThree.db
+
     [Table("NewDoggo")]
     public class Doggo
     {

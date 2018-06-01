@@ -66,8 +66,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\NewDoggoDB.db" />
-    <AndroidAsset Include="Assets\DogDBTwo.db" />
     <AndroidAsset Include="Assets\DogDBThree.db" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
