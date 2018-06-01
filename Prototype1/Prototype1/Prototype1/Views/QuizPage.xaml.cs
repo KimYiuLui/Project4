@@ -22,17 +22,17 @@ namespace Prototype1.Views
         private Label Vraag3;
         private Label Vraag4;
         private Label Vraag5;
-        //private Label Vraag6;
-        //private Label Vraag7;
-        //private Label Vraag8;
-        //private Label Vraag9;
-        //private Label Vraag10;
-        public static class GlobalVariables
-        {
-            public static string QueryQuiz = "SELECT Name FROM NewDoggo WHERE ";
-        }
+
+        public string QueryQuiz = "SELECT Name FROM NewDoggo WHERE ";
+
+        //Globale Varabelen, gebruik QueryQuiz..QueryQuiz als voorbeeld.
+
+        //public static class 
+        //{
+        //    public static string QueryQuiz = "SELECT Name FROM NewDoggo WHERE ";
+        //}
         //Plaatjes
-        
+
         private Image Image1;
         private Image Image2;
         private Image Image3;
@@ -155,7 +155,7 @@ namespace Prototype1.Views
             Vraag2.IsVisible = true;
             Image1.IsVisible = false;
             Image2.IsVisible = true;
-            GlobalVariables.QueryQuiz = GlobalVariables.QueryQuiz + "Care = 'weinig' ";
+            QueryQuiz = QueryQuiz + "Care = 'weinig' ";
 
         }
 
@@ -171,7 +171,7 @@ namespace Prototype1.Views
             Vraag2.IsVisible = true;
             Image1.IsVisible = false;
             Image2.IsVisible = true;
-            GlobalVariables.QueryQuiz = GlobalVariables.QueryQuiz + "Care = 'gemiddeld' ";
+            QueryQuiz = QueryQuiz + "Care = 'gemiddeld' ";
         }
 
         void Answer1C(object sender, System.EventArgs e)
@@ -186,7 +186,7 @@ namespace Prototype1.Views
             Vraag2.IsVisible = true;
             Image1.IsVisible = false;
             Image2.IsVisible = true;
-            GlobalVariables.QueryQuiz = GlobalVariables.QueryQuiz + "Care = 'veel' ";
+            QueryQuiz = QueryQuiz + "Care = 'veel' ";
         }
         //Vraag 2
         void Answer2A(object sender, System.EventArgs e)
@@ -200,7 +200,7 @@ namespace Prototype1.Views
             Vraag3.IsVisible = true;
             Image2.IsVisible = false;
             Image3.IsVisible = true;
-            GlobalVariables.QueryQuiz = GlobalVariables.QueryQuiz + "AND (TypeOne = 'gezeldschap' OR TypeTwo = 'gezelschap') ";
+            QueryQuiz = QueryQuiz + "AND (TypeOne = 'gezeldschap' OR TypeTwo = 'gezelschap') ";
         }
 
         void Answer2B(object sender, System.EventArgs e)
@@ -214,7 +214,7 @@ namespace Prototype1.Views
             Image3.IsVisible = true;
             Vraag2.IsVisible = false;
             Vraag3.IsVisible = true;
-            GlobalVariables.QueryQuiz = GlobalVariables.QueryQuiz + "AND (TypeOne = 'werk' OR TypeTwo = 'werk') ";
+            QueryQuiz = QueryQuiz + "AND (TypeOne = 'werk' OR TypeTwo = 'werk') ";
         }
 
         void Answer2C(object sender, System.EventArgs e)
@@ -228,7 +228,7 @@ namespace Prototype1.Views
             Image3.IsVisible = true;
             Vraag2.IsVisible = false;
             Vraag3.IsVisible = true;
-            GlobalVariables.QueryQuiz = GlobalVariables.QueryQuiz + "AND (TypeOne = 'jacht' OR TypeTwo = 'jacht') ";
+            QueryQuiz = QueryQuiz + "AND (TypeOne = 'jacht' OR TypeTwo = 'jacht') ";
 
         }
 
@@ -244,7 +244,7 @@ namespace Prototype1.Views
             Vraag4.IsVisible = true;
             Image3.IsVisible = false;
             Image4.IsVisible = true;
-            GlobalVariables.QueryQuiz = GlobalVariables.QueryQuiz + "AND Childfriendly = 'Kindvriendelijk' ";
+            QueryQuiz = QueryQuiz + "AND Childfriendly = 'Kindvriendelijk' ";
         }
 
         void Answer3B(object sender, System.EventArgs e)
@@ -258,7 +258,7 @@ namespace Prototype1.Views
             Vraag4.IsVisible = true;
             Image3.IsVisible = false;
             Image4.IsVisible = true;
-            GlobalVariables.QueryQuiz = GlobalVariables.QueryQuiz + "AND Childfriendly = 'Niet kindvriendelijk' ";
+            QueryQuiz = QueryQuiz + "AND Childfriendly = 'Niet kindvriendelijk' ";
 
         }
 
@@ -289,7 +289,7 @@ namespace Prototype1.Views
             Vraag5.IsVisible = true;
             Image4.IsVisible = false;
             Image5.IsVisible = true;
-            GlobalVariables.QueryQuiz = GlobalVariables.QueryQuiz + "AND Exercise = 'laag' ";
+            QueryQuiz = QueryQuiz + "AND Exercise = 'laag' ";
 
 
         }
@@ -306,7 +306,7 @@ namespace Prototype1.Views
             Vraag5.IsVisible = true;
             Image4.IsVisible = false;
             Image5.IsVisible = true;
-            GlobalVariables.QueryQuiz = GlobalVariables.QueryQuiz + "AND Exercise = 'gemiddeld' ";
+            QueryQuiz = QueryQuiz + "AND Exercise = 'gemiddeld' ";
         }
 
         void Answer4C(object sender, System.EventArgs e)
@@ -321,7 +321,7 @@ namespace Prototype1.Views
             Vraag5.IsVisible = true;
             Image4.IsVisible = false;
             Image5.IsVisible = true;
-            GlobalVariables.QueryQuiz = GlobalVariables.QueryQuiz + "AND Exercise = 'veel' ";
+            QueryQuiz = QueryQuiz + "AND Exercise = 'veel' ";
         }
 
         //Vraag 5
@@ -332,11 +332,11 @@ namespace Prototype1.Views
             Antwoord5C.IsVisible = false;
             Image5.IsVisible = false;
             Vraag5.IsVisible = false;
-            GlobalVariables.QueryQuiz = GlobalVariables.QueryQuiz + "AND Fur = 'kort' ";
-            Console.WriteLine(GlobalVariables.QueryQuiz);
+            QueryQuiz = QueryQuiz + "AND Fur = 'kort' ;";
+            Console.WriteLine(QueryQuiz);
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             var dbPath = Path.Combine(targetPath, "DogDBOne.db");
-            await Navigation.PushAsync(new QuizResultaat(dbPath));
+            await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
         }
 
         async void Answer5B(object sender, System.EventArgs e)
@@ -346,11 +346,11 @@ namespace Prototype1.Views
             Antwoord5C.IsVisible = false;
             Image5.IsVisible = false;
             Vraag5.IsVisible = false;
-            GlobalVariables.QueryQuiz = GlobalVariables.QueryQuiz + "AND Fur = 'gemiddeld' ";
-            Console.WriteLine(GlobalVariables.QueryQuiz);
+            QueryQuiz = QueryQuiz + "AND Fur = 'gemiddeld' ;";
+            Console.WriteLine(QueryQuiz);
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             var dbPath = Path.Combine(targetPath, "DogDBOne.db");
-            await Navigation.PushAsync(new QuizResultaat(dbPath));
+            await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
         }
 
         async void Answer5C(object sender, System.EventArgs e)
@@ -360,10 +360,10 @@ namespace Prototype1.Views
             Antwoord5C.IsVisible = false;
             Image5.IsVisible = false;
             Vraag5.IsVisible = false;
-            GlobalVariables.QueryQuiz = GlobalVariables.QueryQuiz + "AND Fur = 'lang'";
+            QueryQuiz = QueryQuiz + "AND Fur = 'lang' ;";
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             var dbPath = Path.Combine(targetPath, "DogDBOne.db");
-            await Navigation.PushAsync(new QuizResultaat(dbPath));
+            await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
         }
 
         //Vraag 6
