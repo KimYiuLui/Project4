@@ -10,6 +10,7 @@ using Prototype1.Data;
 using Prototype1.Views;
 using System.IO;
 using SQLite;
+using Xamarin.Forms.Internals;
 
 namespace Prototype1.Views
 {
@@ -32,12 +33,34 @@ namespace Prototype1.Views
 
         async void Button_Clicked(object sender, EventArgs e)
         {
-            await _connection.CreateTableAsync<FavorietLijst>();
             int dogId = currentdog.Id; // turn the currentdog.Id into and integer
-            var AddFav = new FavorietLijst { Id = dogId }; // add the currentdog.Id to favoritelist.Id
-            await _connection.InsertAsync(AddFav); // insert into the table in the database 
-
+            await _connection.CreateTableAsync<FavorietLijst>();
+            try
+            {
+                var AddFav = new FavorietLijst { Id = dogId }; // add the currentdog.Id to favoritelist.Id
+                await _connection.InsertAsync(AddFav); // insert into the table in the database 
+            }
+            catch
+            {
+                await DisplayAlert("Notificatie", "Deze hond staat al in uw favorietenlijst", "Oké");// if currentId is in dogId => displayalert 
+            }
 
         }
+        async void RemoveButton_Clicked(object sender, EventArgs e)
+        {
+            int dogId = currentdog.Id; // turn the currentdog.Id into and integer
+            await _connection.CreateTableAsync<FavorietLijst>();
+            try
+            {
+                var DelFav = new FavorietLijst { Id = dogId }; // add the currentdog.Id to favoritelist.Id
+                await _connection.DeleteAsync(DelFav); // insert into the table in the database 
+            }
+            catch
+            {
+                await DisplayAlert("Notificatie", "Deze hond staat niet in uw favorietenlijst. Je kan deze hond niet uit je favorietenlijst verweideren", "Oké");// if currentId is in dogId => displayalert 
+            }
+
+        }
+        
     }
 }

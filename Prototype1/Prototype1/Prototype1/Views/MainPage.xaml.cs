@@ -60,9 +60,16 @@ namespace Prototype1
 
         async void FavBtnClicked(object sender, System.EventArgs e)
         {
-            string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            var dbPath = Path.Combine(targetPath, "DogDBThree.db");
-            await Navigation.PushAsync(new Favorieten(dbPath)); // navigate to the "Favorieten" list 
+            try
+            {
+                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                var dbPath = Path.Combine(targetPath, "DogDBThree.db");
+                await Navigation.PushAsync(new Favorieten(dbPath)); // navigate to the "Favorieten" list }
+            }
+            catch
+            {
+                await DisplayAlert("Notificatie", "U heeft nog geen hond toegevoed aan de favorietenlijst", "Oké");
+            }
         }
     }
 }
