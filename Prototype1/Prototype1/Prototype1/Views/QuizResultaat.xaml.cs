@@ -60,5 +60,11 @@ namespace Prototype1.Views
             }
         }
 
+
+
+        async void ToolbarItem_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopToRootAsync();
+        }
     }
 }

@@ -2760,6 +2760,9 @@ namespace Prototype1.Droid
 			public static int Eurasier = 0;
 			
 			// aapt resource value: 0
+			public static int fav = 0;
+			
+			// aapt resource value: 0
 			public static int FieldSpaniel = 0;
 			
 			// aapt resource value: 0
@@ -2896,6 +2899,9 @@ namespace Prototype1.Droid
 			
 			// aapt resource value: 0
 			public static int HollandseSmoushond = 0;
+			
+			// aapt resource value: 0
+			public static int home = 0;
 			
 			// aapt resource value: 0
 			public static int HongaarseWindhond = 0;
@@ -3852,6 +3858,9 @@ namespace Prototype1.Droid
 			public static int PyreneeseHerdershond = 0;
 			
 			// aapt resource value: 0
+			public static int random = 0;
+			
+			// aapt resource value: 0
 			public static int Reisenschnauzer = 0;
 			
 			// aapt resource value: 0
@@ -4006,6 +4015,12 @@ namespace Prototype1.Droid
 			
 			// aapt resource value: 0
 			public static int TsjechoSlowaakseWolfhond = 0;
+			
+			// aapt resource value: 0
+			public static int unfav = 0;
+			
+			// aapt resource value: 0
+			public static int Untitled-1 = 0;
 			
 			// aapt resource value: 0
 			public static int Vallhund = 0;

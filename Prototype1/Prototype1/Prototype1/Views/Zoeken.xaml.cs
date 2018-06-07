@@ -50,5 +50,19 @@ namespace Prototype1.Views
                 await Navigation.PushAsync(page); //navigate to "DoggoDetail" and add the dbPath and the selected doggo
             }
         }
+
+
+        //search bar that looks for a dog that contains the text the user has inserted
+        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            DoggoListView.BeginRefresh();
+
+            if (string.IsNullOrWhiteSpace(e.NewTextValue))
+                DoggoListView.ItemsSource = _doggos;
+            else
+                DoggoListView.ItemsSource = _doggos.Where(i => i.Name.ToLower().Contains(e.NewTextValue));
+
+            DoggoListView.EndRefresh();
+        }
     }
 }

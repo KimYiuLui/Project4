@@ -2,8 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Prototype1.Views.Zoeken" BackgroundImage="Background.png" Title="Zoeken">
-    <StackLayout Padding="10,20,10,20">
-        <ListView x:Name="DoggoListView" BackgroundColor="White" ItemTapped="DoggoTapped" ItemSelected="DoggoSelected">
+    <StackLayout Padding="10,5,10,20">
+        <SearchBar Placeholder="Zoeken..." TextChanged="SearchBar_TextChanged" BackgroundColor="White" TextColor="Black"/>
+        <ListView x:Name="DoggoListView" IsPullToRefreshEnabled="True" Margin="0,5,0,0"
+                      BackgroundColor="White" ItemTapped="DoggoTapped" ItemSelected="DoggoSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell Text="{Binding Name}" TextColor="Black" />

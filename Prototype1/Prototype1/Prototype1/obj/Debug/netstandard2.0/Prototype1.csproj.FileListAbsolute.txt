@@ -41,3 +41,12 @@ C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstan
 C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.AssemblyInfo.cs
 C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.dll
 C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.pdb
+C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Views\App.xaml.g.cs
+C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Views\DoggoDetail.xaml.g.cs
+C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Views\Favorieten.xaml.g.cs
+C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Views\QuizPage.xaml.g.cs
+C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Views\QuizResultaat.xaml.g.cs
+C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Views\Zoeken.xaml.g.cs
+C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Views\RandomPage.xaml.g.cs

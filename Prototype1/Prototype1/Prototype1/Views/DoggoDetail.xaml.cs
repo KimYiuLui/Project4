@@ -20,25 +20,49 @@ namespace Prototype1.Views
         public Doggo currentdog;
         public List<Doggo> calledList = new List<Doggo>();
         private SQLiteAsyncConnection _connection;
-
-
+        private List<Doggo> _doggos;
+        private int dogId;
 
         public DoggoDetail (string dbPath, Doggo dog)
 		{
-            _connection = new SQLiteAsyncConnection(dbPath); 
+            _connection = new SQLiteAsyncConnection(dbPath);
             this.currentdog = dog; // add the binding data to the variable currentdog
+            this.dogId = currentdog.Id;
             BindingContext = this.currentdog;
-			InitializeComponent ();
-		}
+
+            InitializeComponent();
+
+            FavCheck(dogId);
+        }
+
+        async void FavCheck(int dogID)
+        {
+            await _connection.CreateTableAsync<FavorietLijst>();
+            string checkquery = "SELECT * FROM 'Favlijst' WHERE 'FavLijst'.'Id' = " + dogId + "; ";
+            var check = await _connection.QueryAsync<FavorietLijst>(checkquery);
+            var checklist = new List<FavorietLijst>(check);
+            if (checklist.Count() <= 0)
+            {
+                FavXAML.Icon = "fav.png";
+                FavXAML.Clicked -= RemoveButton_Clicked;
+                FavXAML.Clicked += Button_Clicked;
+            }
+            else
+            {
+                FavXAML.Icon = "unfav.png";
+                FavXAML.Clicked -= Button_Clicked;
+                FavXAML.Clicked += RemoveButton_Clicked;
+            }
+        }
 
         async void Button_Clicked(object sender, EventArgs e)
         {
-            int dogId = currentdog.Id; // turn the currentdog.Id into and integer
             await _connection.CreateTableAsync<FavorietLijst>();
             try
             {
                 var AddFav = new FavorietLijst { Id = dogId }; // add the currentdog.Id to favoritelist.Id
                 await _connection.InsertAsync(AddFav); // insert into the table in the database 
+                FavCheck(dogId);
             }
             catch
             {
@@ -52,8 +76,9 @@ namespace Prototype1.Views
             await _connection.CreateTableAsync<FavorietLijst>();
             try
             {
-                var DelFav = new FavorietLijst { Id = dogId }; // add the currentdog.Id to favoritelist.Id
-                await _connection.DeleteAsync(DelFav); // insert into the table in the database 
+                var DelFav = new FavorietLijst { Id = dogId }; // select the current dog from favorite list 
+                await _connection.DeleteAsync(DelFav); // delete the current dog from favorite list
+                FavCheck(dogId);
             }
             catch
             {
@@ -61,6 +86,11 @@ namespace Prototype1.Views
             }
 
         }
-        
+
+        async void Homeclicked(object sender, EventArgs e)
+        {
+            await Navigation.PopToRootAsync();
+        }
+
     }
 }

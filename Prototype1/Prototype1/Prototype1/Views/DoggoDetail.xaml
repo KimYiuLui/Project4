@@ -1,64 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Prototype1.Views.DoggoDetail" BackgroundImage="Background.png" Title="{Binding Name}">
-    <StackLayout Padding="10,20,10,20"  >
-        <Image Source="{Binding Img}" HorizontalOptions="Center" HeightRequest="200" WidthRequest="200" Margin="0,-10,0,0"/>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Padding="0,5,0,5">
-            <Button Text="Favorite" BindingContext="{Binding Fav}" Clicked="Button_Clicked" BackgroundColor="Gray" WidthRequest="110" HeightRequest="40"/>
-            <Button Text="Unfavorite" BindingContext="{Binding Fav}" Clicked="RemoveButton_Clicked" BackgroundColor="Gray" WidthRequest="110" HeightRequest="40"/>
-        </StackLayout>
+             x:Class="Prototype1.Views.DoggoDetail" BackgroundImage="Background.png" Title="    Informatie pagina">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="home.png" Clicked="Homeclicked"/>
+        <ToolbarItem x:Name="FavXAML"/>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Padding="10,5,10,20" >
+        <Label Text="{Binding Name}" HorizontalOptions="Center" FontSize="26" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
+        <Image Source="{Binding Img}" HorizontalOptions="Center" HeightRequest="200" WidthRequest="200" Margin="0,0,0,0"/>
         <ScrollView HorizontalOptions="Center" Padding="10,0,10,20" IsClippedToBounds="True" BackgroundColor="White">
             <StackLayout>
-                    <Label Text="Types" FontAttributes="Bold"/>
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="{Binding TypeOne}" Margin="0,0,0,10"/>
-                        <Label Text="{Binding TypeTwo}" Margin="0,0,0,10"/>
-                    </StackLayout>
+                <Label Text="Types" FontAttributes="Bold" Margin="0,5,0,0" TextColor="Black"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="{Binding TypeOne}" Margin="0,0,0,10" TextColor="Black"/>
+                    <Label Text="{Binding TypeTwo}" Margin="0,0,0,10" TextColor="Black"/>
+                </StackLayout>
 
-                    <Label Text="Kindvriendelijkheid" FontAttributes="Bold"/>
-                    <Label Text="{Binding ChildFriendly}" Margin="0,0,0,10"/>
+                <Label Text="Kindvriendelijkheid" FontAttributes="Bold" TextColor="Black"/>
+                <Label Text="{Binding ChildFriendly}" Margin="0,0,0,10" TextColor="Black"/>
 
-                    <Label Text="Vacht" FontAttributes="Bold"/>
-                    <Label Text="{Binding Fur}" Margin="0,0,0,10"/>
+                <Label Text="Vacht" FontAttributes="Bold" TextColor="Black"/>
+                <Label Text="{Binding Fur}" Margin="0,0,0,10" TextColor="Black"/>
 
-                    <Label Text="Kleur" FontAttributes="Bold"/>
-                    <Label Text="{Binding Color}" Margin="0,0,0,10"/>
-
-
-                    <Label Text="Staart" FontAttributes="Bold"/>
-                    <Label Text="{Binding Tail}" Margin="0,0,0,10"/>
-
-                    <Label Text="Gemiddelde leeftjd" FontAttributes="Bold"/>
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="{Binding Age}" Margin="0,0,0,10"/>
-                        <Label Text="jaar oud" Margin="0,0,0,10"/>
-                    </StackLayout>
+                <Label Text="Kleur" FontAttributes="Bold" TextColor="Black"/>
+                <Label Text="{Binding Color}" Margin="0,0,0,10" TextColor="Black"/>
 
 
-                    <Label Text="Gemiddelde gewicht" FontAttributes="Bold"/>
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="{Binding Weight}" Margin="0,0,0,10"/>
-                        <Label Text="kg" Margin="0,0,0,10"/>
-                    </StackLayout>
+                <Label Text="Staart" FontAttributes="Bold" TextColor="Black"/>
+                <Label Text="{Binding Tail}" Margin="0,0,0,10" TextColor="Black"/>
 
-                    <Label Text="Gemiddelde lengte" FontAttributes="Bold"/>
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="{Binding Height}" Margin="0,0,0,10"/>
-                        <Label Text="cm" Margin="0,0,0,10"/>
-                    </StackLayout>
+                <Label Text="Gemiddelde leeftjd" FontAttributes="Bold" TextColor="Black"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="{Binding Age}" Margin="0,0,0,10" TextColor="Black"/>
+                    <Label Text="jaar oud" Margin="0,0,0,10" TextColor="Black"/>
+                </StackLayout>
 
-                    <Label Text="Algemeen" FontAttributes="Bold"/>
-                    <Label Text="{Binding InfoGeneral}" Margin="0,0,0,10"/>
-                    
-                    <Label Text="Karakter" FontAttributes="Bold"/>
-                    <Label Text="{Binding InfoBehaviour}" Margin="0,0,0,10"/>
 
-                    <Label Text="Beweging" FontAttributes="Bold"/>
-                    <Label Text="{Binding InfoExercise}" Margin="0,0,0,10"/>
+                <Label Text="Gemiddelde gewicht" FontAttributes="Bold" TextColor="Black"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="{Binding Weight}" Margin="0,0,0,10" TextColor="Black"/>
+                    <Label Text="kg" Margin="0,0,0,10" TextColor="Black"/>
+                </StackLayout>
 
-                    <Label Text="Verzorging" FontAttributes="Bold"/>
-                    <Label Text="{Binding InfoCare}" Margin="0,0,0,10"/>
+                <Label Text="Gemiddelde lengte" FontAttributes="Bold" TextColor="Black"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="{Binding Height}" Margin="0,0,0,10" TextColor="Black"/>
+                    <Label Text="cm" Margin="0,0,0,10" TextColor="Black"/>
+                </StackLayout>
+
+                <Label Text="Algemeen" FontAttributes="Bold"/>
+                <Label Text="{Binding InfoGeneral}" Margin="0,0,0,10" TextColor="Black"/>
+
+                <Label Text="Karakter" FontAttributes="Bold" TextColor="Black"/>
+                <Label Text="{Binding InfoBehaviour}" Margin="0,0,0,10" TextColor="Black"/>
+
+                <Label Text="Beweging" FontAttributes="Bold" TextColor="Black"/>
+                <Label Text="{Binding InfoExercise}" Margin="0,0,0,10" TextColor="Black"/>
+
+                <Label Text="Verzorging" FontAttributes="Bold" TextColor="Black"/>
+                <Label Text="{Binding InfoCare}" Margin="0,0,0,10" TextColor="Black"/>
                 </StackLayout>
         </ScrollView>
     </StackLayout>

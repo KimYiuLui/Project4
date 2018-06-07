@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Prototype1.Views.QuizResultaat" BackgroundImage="Background.png" Title="Resultaat">
+             x:Class="Prototype1.Views.QuizResultaat" BackgroundImage="Background.png" Title="Resultaat" NavigationPage.HasBackButton="False">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="home.png" Clicked="ToolbarItem_Clicked" Name="iconItem"/>
+    </ContentPage.ToolbarItems>
     <StackLayout Padding="10,20,10,20">
         <ListView x:Name="DoggoListView" BackgroundColor="White" ItemTapped="DoggoTapped" ItemSelected="DoggoSelected">
             <ListView.ItemTemplate>

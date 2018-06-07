@@ -47,7 +47,7 @@ namespace Prototype1
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
                 var dbPath = Path.Combine(targetPath, "DogDBThree.db");
-                var page = new DoggoDetail(dbPath, _doggos[randomdoggo]); // navigate to the "DoggoDetailpage" and give the dbPath and the data of the random dog with it
+                var page = new RandomPage(dbPath, _doggos[randomdoggo]); // navigate to the "DoggoDetailpage" and give the dbPath and the data of the random dog with it
                 page.BindingContext = _doggos[randomdoggo]; // set the bindingcontext to the data of the random dog 
                 await Navigation.PushAsync(page);
             }
