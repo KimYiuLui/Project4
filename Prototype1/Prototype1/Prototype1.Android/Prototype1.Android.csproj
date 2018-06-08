@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\DogDBThree.db" />
+    <AndroidAsset Include="Assets\DogDBFour.db" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>

@@ -469,23 +469,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\K.Y\\.nuget\\packages\\": {},
+    "C:\\Users\\KimYiuLui\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\K.Y\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1\\Prototype1.csproj",
+      "projectUniqueName": "C:\\Users\\KimYiuLui\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1\\Prototype1.csproj",
       "projectName": "Prototype1",
-      "projectPath": "C:\\Users\\K.Y\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1\\Prototype1.csproj",
-      "packagesPath": "C:\\Users\\K.Y\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\K.Y\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1\\obj\\",
+      "projectPath": "C:\\Users\\KimYiuLui\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1\\Prototype1.csproj",
+      "packagesPath": "C:\\Users\\KimYiuLui\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KimYiuLui\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\K.Y\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KimYiuLui\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

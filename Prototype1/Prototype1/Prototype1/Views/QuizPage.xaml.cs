@@ -335,7 +335,7 @@ namespace Prototype1.Views
             QueryQuiz = QueryQuiz + "AND Fur = 'kort' ;";
             Console.WriteLine(QueryQuiz);
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            var dbPath = Path.Combine(targetPath, "DogDBThree.db");
+            var dbPath = Path.Combine(targetPath, "DogDBFour.db");
             await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
         }
 
@@ -349,7 +349,7 @@ namespace Prototype1.Views
             QueryQuiz = QueryQuiz + "AND Fur = 'gemiddeld' ;";
             Console.WriteLine(QueryQuiz);
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            var dbPath = Path.Combine(targetPath, "DogDBThree.db");
+            var dbPath = Path.Combine(targetPath, "DogDBFour.db");
             await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
         }
 
@@ -362,7 +362,7 @@ namespace Prototype1.Views
             Vraag5.IsVisible = false;
             QueryQuiz = QueryQuiz + "AND Fur = 'lang' ;";
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            var dbPath = Path.Combine(targetPath, "DogDBThree.db");
+            var dbPath = Path.Combine(targetPath, "DogDBFour.db");
             await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
         }
 
