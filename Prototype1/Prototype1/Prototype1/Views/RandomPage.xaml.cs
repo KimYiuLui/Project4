@@ -101,7 +101,7 @@ namespace Prototype1.Views
             if (_doggos[randomdoggo] != null) // check if the random number is not null 
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBThree.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
                 var page = new RandomPage(dbPath, _doggos[randomdoggo]); // navigate to the "DoggoDetailpage" and give the dbPath and the data of the random dog with it
                 page.BindingContext = _doggos[randomdoggo]; // set the bindingcontext to the data of the random dog 
                 await Navigation.PushAsync(page);

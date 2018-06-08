@@ -21,11 +21,11 @@ namespace Prototype1.Droid
             base.OnCreate(bundle);
 
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            var path = Path.Combine(targetPath, "DogDBThree.db");
+            var path = Path.Combine(targetPath, "DogDBFour.db");
 
             if (!File.Exists(path))
             {
-                using (Stream input = Assets.Open("DogDBThree.db"))
+                using (Stream input = Assets.Open("DogDBFour.db"))
                 {
                     using (var fs = new FileStream(path, FileMode.Create))
                     {

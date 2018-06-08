@@ -44,7 +44,7 @@ namespace Prototype1.Views
             if (this.doggo != null)
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBThree.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
                 var page = new DoggoDetail(dbPath, doggo); 
                 page.BindingContext = this.doggo; // set the binding context for the "DoggoDetail" page
                 await Navigation.PushAsync(page); //navigate to "DoggoDetail" and add the dbPath and the selected doggo

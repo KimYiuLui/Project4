@@ -19,20 +19,26 @@ namespace Prototype1
         public MainPage(string dbPath)
         {
             _connection = new SQLiteAsyncConnection(dbPath); // make a sqlite connection with the dbPath which is DogDBThree.db
+            CreateFavoriteDB();
             InitializeComponent();
+        }
+
+        async void CreateFavoriteDB()
+        {
+            await _connection.CreateTableAsync<FavorietLijst>();
         }
 
         async void ZoekBtnClicked(object sender, System.EventArgs e)
         {
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal); // Path to find a file within the solution
-            var dbPath = Path.Combine(targetPath, "DogDBThree.db"); // using the path to look for the DogDBThree.db
+            var dbPath = Path.Combine(targetPath, "DogDBFour.db"); // using the path to look for the DogDBThree.db
             await Navigation.PushAsync(new Zoeken(dbPath)); //navigate to the page "Zoeken" and give the database path with it. 
         }
 
         async void TestBtnClicked(object sender, System.EventArgs e)
         {
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            var dbPath = Path.Combine(targetPath, "DogDBThree.db");
+            var dbPath = Path.Combine(targetPath, "DogDBFour.db");
             await Navigation.PushAsync(new QuizPage(dbPath));
         }
 
@@ -46,7 +52,7 @@ namespace Prototype1
             if (_doggos[randomdoggo] != null) // check if the random number is not null 
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBThree.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
                 var page = new RandomPage(dbPath, _doggos[randomdoggo]); // navigate to the "DoggoDetailpage" and give the dbPath and the data of the random dog with it
                 page.BindingContext = _doggos[randomdoggo]; // set the bindingcontext to the data of the random dog 
                 await Navigation.PushAsync(page);
@@ -60,16 +66,25 @@ namespace Prototype1
 
         async void FavBtnClicked(object sender, System.EventArgs e)
         {
-            try
+            await _connection.CreateTableAsync<FavorietLijst>();
+            string checkquery = "SELECT * FROM 'Favlijst'; ";
+            var check = await _connection.QueryAsync<FavorietLijst>(checkquery);
+            var checklist = new List<FavorietLijst>(check);
+            if (checklist.Count() != 0)
             {
-                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBThree.db");
-                await Navigation.PushAsync(new Favorieten(dbPath)); // navigate to the "Favorieten" list }
+                try
+                {
+                    string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                    var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                    await Navigation.PushAsync(new Favorieten(dbPath)); // navigate to the "Favorieten" list }
+                }
+                catch
+                {
+                    await DisplayAlert("Notificatie", "U heeft nog geen hond toegevoegd aan de favorietenlijst", "Oké");
+                }
             }
-            catch
-            {
-                await DisplayAlert("Notificatie", "U heeft nog geen hond toegevoed aan de favorietenlijst", "Oké");
-            }
+            else
+                await DisplayAlert("Notificatie", "U heeft nog geen hond toegevoegd aan de favorietenlijst", "Oké");
         }
     }
 }

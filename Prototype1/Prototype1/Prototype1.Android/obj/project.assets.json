@@ -924,20 +924,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\K.Y\\.nuget\\packages\\": {}
+    "C:\\Users\\KimYiuLui\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\K.Y\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1.Android\\Prototype1.Android.csproj",
+      "projectUniqueName": "C:\\Users\\KimYiuLui\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1.Android\\Prototype1.Android.csproj",
       "projectName": "Prototype1.Android",
-      "projectPath": "C:\\Users\\K.Y\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1.Android\\Prototype1.Android.csproj",
-      "packagesPath": "C:\\Users\\K.Y\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\K.Y\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1.Android\\obj\\",
+      "projectPath": "C:\\Users\\KimYiuLui\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1.Android\\Prototype1.Android.csproj",
+      "packagesPath": "C:\\Users\\KimYiuLui\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KimYiuLui\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\K.Y\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KimYiuLui\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -950,8 +950,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\K.Y\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1\\Prototype1.csproj": {
-              "projectPath": "C:\\Users\\K.Y\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1\\Prototype1.csproj"
+            "C:\\Users\\KimYiuLui\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1\\Prototype1.csproj": {
+              "projectPath": "C:\\Users\\KimYiuLui\\Desktop\\Project4\\Prototype1\\Prototype1\\Prototype1\\Prototype1.csproj"
             }
           }
         }
