@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Prototype1"
-             x:Class="Prototype1.MainPage" NavigationPage.HasNavigationBar="False" BackgroundImage="Background.png">
+             x:Class="Prototype1.MainPage" NavigationPage.HasNavigationBar="False" BackgroundImage="{DynamicResource backgroundImg}">
     <StackLayout x:Name="MasterLayout" Spacing="20" Padding="0,5,0,0">
         <Image Source="Logo.png" Margin="50,20,50,20" WidthRequest="200" HeightRequest="200"/>
         <StackLayout x:Name="LogoField" Padding="0,0,0,0">

@@ -5,6 +5,12 @@
 	<Application.Resources>
 
 		<!-- Application resource dictionary -->
-
-	</Application.Resources>
+        <ResourceDictionary>
+            <Image x:Key="backgroundImg" Source="Background.jpg"/>
+        </ResourceDictionary>
+        
+        <Style TargetType="ContentPage" ApplyToDerivedTypes="true">
+            <Setter Property="BackgroundImage" Value="Background.jpg" />
+        </Style>
+    </Application.Resources>
 </Application>

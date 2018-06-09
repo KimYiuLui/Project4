@@ -26,7 +26,8 @@ namespace Prototype1.Views
         protected override async void OnAppearing()
         {
             await _connection.CreateTableAsync<Doggo>(); // create a table in the databasefile. (if it already exist it won't create it)
-            var doggos = await _connection.Table<Doggo>().ToListAsync(); //put everything of the database in a list
+            var doggos = await _connection.QueryAsync<Doggo>("SELECT * FROM NewDoggo ORDER BY Name"); //put everything of the database in a list
+            doggos.ToList();
             _doggos = new List<Doggo>(doggos); // make a new list of "Doggo" and put the "doggoss" as the values for the new list
             DoggoListView.ItemsSource = _doggos; // set the bindingcontext to the data of the dog 
             base.OnAppearing();

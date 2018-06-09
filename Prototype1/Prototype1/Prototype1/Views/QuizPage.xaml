@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Prototype1.Views.QuizPage" BackgroundImage="Background.png" Title="Voorkeurtest">
+             x:Class="Prototype1.Views.QuizPage" Title="Voorkeurtest" BackgroundImage="{DynamicResource backgroundImg}">
     <StackLayout Padding="10,20,10,20" >
         <Label x:Name="VraagNummer_Xaml1" Text="Hoeveel verzorging is genoeg?" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
         <Label x:Name="VraagNummer_Xaml2" IsVisible="False" Text="Wat is uw gewenste soort hond?" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"/>
