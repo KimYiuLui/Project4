@@ -2405,26 +2405,26 @@ namespace Prototype1.Droid
 			// aapt resource value: 0x7f02006c
 			public const int avd_hide_password = 2130837612;
 			
-			// aapt resource value: 0x7f0202a4
-			public const int avd_hide_password_1 = 2130838180;
-			
-			// aapt resource value: 0x7f0202a5
-			public const int avd_hide_password_2 = 2130838181;
-			
 			// aapt resource value: 0x7f0202a6
-			public const int avd_hide_password_3 = 2130838182;
+			public const int avd_hide_password_1 = 2130838182;
+			
+			// aapt resource value: 0x7f0202a7
+			public const int avd_hide_password_2 = 2130838183;
+			
+			// aapt resource value: 0x7f0202a8
+			public const int avd_hide_password_3 = 2130838184;
 			
 			// aapt resource value: 0x7f02006d
 			public const int avd_show_password = 2130837613;
 			
-			// aapt resource value: 0x7f0202a7
-			public const int avd_show_password_1 = 2130838183;
-			
-			// aapt resource value: 0x7f0202a8
-			public const int avd_show_password_2 = 2130838184;
-			
 			// aapt resource value: 0x7f0202a9
-			public const int avd_show_password_3 = 2130838185;
+			public const int avd_show_password_1 = 2130838185;
+			
+			// aapt resource value: 0x7f0202aa
+			public const int avd_show_password_2 = 2130838186;
+			
+			// aapt resource value: 0x7f0202ab
+			public const int avd_show_password_3 = 2130838187;
 			
 			// aapt resource value: 0x7f02006e
 			public const int Background = 2130837614;
@@ -3474,655 +3474,661 @@ namespace Prototype1.Droid
 			public const int IconAge = 2130837962;
 			
 			// aapt resource value: 0x7f0201cb
-			public const int IconChildfriendly = 2130837963;
+			public const int IconAZ = 2130837963;
 			
 			// aapt resource value: 0x7f0201cc
-			public const int IconColor = 2130837964;
+			public const int IconChildfriendly = 2130837964;
 			
 			// aapt resource value: 0x7f0201cd
-			public const int IconFur = 2130837965;
+			public const int IconColor = 2130837965;
 			
 			// aapt resource value: 0x7f0201ce
-			public const int IconHeight = 2130837966;
+			public const int IconFur = 2130837966;
 			
 			// aapt resource value: 0x7f0201cf
-			public const int IconInstelling = 2130837967;
+			public const int IconHeight = 2130837967;
 			
 			// aapt resource value: 0x7f0201d0
-			public const int IconTail = 2130837968;
+			public const int IconInstelling = 2130837968;
 			
 			// aapt resource value: 0x7f0201d1
-			public const int IconType = 2130837969;
+			public const int IconTail = 2130837969;
 			
 			// aapt resource value: 0x7f0201d2
-			public const int IconWeight = 2130837970;
+			public const int IconType = 2130837970;
 			
 			// aapt resource value: 0x7f0201d3
-			public const int IerseRoodWitteSetter = 2130837971;
+			public const int IconWeight = 2130837971;
 			
 			// aapt resource value: 0x7f0201d4
-			public const int IerseSetter = 2130837972;
+			public const int IconZA = 2130837972;
 			
 			// aapt resource value: 0x7f0201d5
-			public const int IerseSoftcoatedWheatenTerrier = 2130837973;
+			public const int IerseRoodWitteSetter = 2130837973;
 			
 			// aapt resource value: 0x7f0201d6
-			public const int IerseTerrier = 2130837974;
+			public const int IerseSetter = 2130837974;
 			
 			// aapt resource value: 0x7f0201d7
-			public const int IerseWaterspaniel = 2130837975;
+			public const int IerseSoftcoatedWheatenTerrier = 2130837975;
 			
 			// aapt resource value: 0x7f0201d8
-			public const int IerseWolfshond = 2130837976;
+			public const int IerseTerrier = 2130837976;
 			
 			// aapt resource value: 0x7f0201d9
-			public const int IjslandseHond = 2130837977;
+			public const int IerseWaterspaniel = 2130837977;
 			
 			// aapt resource value: 0x7f0201da
-			public const int IrishGlenOfImaalterrier = 2130837978;
+			public const int IerseWolfshond = 2130837978;
 			
 			// aapt resource value: 0x7f0201db
-			public const int IstarskiKratkodlakiGonic = 2130837979;
+			public const int IjslandseHond = 2130837979;
 			
 			// aapt resource value: 0x7f0201dc
-			public const int IstarskiOstrodlakiGonic = 2130837980;
+			public const int IrishGlenOfImaalterrier = 2130837980;
 			
 			// aapt resource value: 0x7f0201dd
-			public const int ItaliaansWindhondje = 2130837981;
+			public const int IstarskiKratkodlakiGonic = 2130837981;
 			
 			// aapt resource value: 0x7f0201de
-			public const int JackRussellTerrier = 2130837982;
+			public const int IstarskiOstrodlakiGonic = 2130837982;
 			
 			// aapt resource value: 0x7f0201df
-			public const int Jamthund = 2130837983;
+			public const int ItaliaansWindhondje = 2130837983;
 			
 			// aapt resource value: 0x7f0201e0
-			public const int JapanseAkita = 2130837984;
+			public const int JackRussellTerrier = 2130837984;
 			
 			// aapt resource value: 0x7f0201e1
-			public const int JapanseSpaniel = 2130837985;
+			public const int Jamthund = 2130837985;
 			
 			// aapt resource value: 0x7f0201e2
-			public const int JapanseSpits = 2130837986;
+			public const int JapanseAkita = 2130837986;
 			
 			// aapt resource value: 0x7f0201e3
-			public const int JapanseTerrier = 2130837987;
+			public const int JapanseSpaniel = 2130837987;
 			
 			// aapt resource value: 0x7f0201e4
-			public const int JuraLaufhund = 2130837988;
+			public const int JapanseSpits = 2130837988;
 			
 			// aapt resource value: 0x7f0201e5
-			public const int Kai = 2130837989;
+			public const int JapanseTerrier = 2130837989;
 			
 			// aapt resource value: 0x7f0201e6
-			public const int Kanaanhond = 2130837990;
+			public const int JuraLaufhund = 2130837990;
 			
 			// aapt resource value: 0x7f0201e7
-			public const int Karakachan = 2130837991;
+			public const int Kai = 2130837991;
 			
 			// aapt resource value: 0x7f0201e8
-			public const int KarelischeBerenhond = 2130837992;
+			public const int Kanaanhond = 2130837992;
 			
 			// aapt resource value: 0x7f0201e9
-			public const int KaukasischeOwcharka = 2130837993;
+			public const int Karakachan = 2130837993;
 			
 			// aapt resource value: 0x7f0201ea
-			public const int KeeshondPomeriaanHond = 2130837994;
+			public const int KarelischeBerenhond = 2130837994;
 			
 			// aapt resource value: 0x7f0201eb
-			public const int KerryBlueTerrier = 2130837995;
+			public const int KaukasischeOwcharka = 2130837995;
 			
 			// aapt resource value: 0x7f0201ec
-			public const int KingCharlesSpaniel = 2130837996;
+			public const int KeeshondPomeriaanHond = 2130837996;
 			
 			// aapt resource value: 0x7f0201ed
-			public const int Kishu = 2130837997;
+			public const int KerryBlueTerrier = 2130837997;
 			
 			// aapt resource value: 0x7f0201ee
-			public const int KleineMunsterlander = 2130837998;
+			public const int KingCharlesSpaniel = 2130837998;
 			
 			// aapt resource value: 0x7f0201ef
-			public const int KleineZwitserseLopendeHond = 2130837999;
+			public const int Kishu = 2130837999;
 			
 			// aapt resource value: 0x7f0201f0
-			public const int Komondor = 2130838000;
+			public const int KleineMunsterlander = 2130838000;
 			
 			// aapt resource value: 0x7f0201f1
-			public const int Kooikerhondje = 2130838001;
+			public const int KleineZwitserseLopendeHond = 2130838001;
 			
 			// aapt resource value: 0x7f0201f2
-			public const int KoreaanseJindohond = 2130838002;
+			public const int Komondor = 2130838002;
 			
 			// aapt resource value: 0x7f0201f3
-			public const int KraskiOvcar = 2130838003;
+			public const int Kooikerhondje = 2130838003;
 			
 			// aapt resource value: 0x7f0201f4
-			public const int Kromfohrlander = 2130838004;
+			public const int KoreaanseJindohond = 2130838004;
 			
 			// aapt resource value: 0x7f0201f5
-			public const int Kuvasz = 2130838005;
+			public const int KraskiOvcar = 2130838005;
 			
 			// aapt resource value: 0x7f0201f6
-			public const int LabradorRetriever = 2130838006;
+			public const int Kromfohrlander = 2130838006;
 			
 			// aapt resource value: 0x7f0201f7
-			public const int LaekenseHerder = 2130838007;
+			public const int Kuvasz = 2130838007;
 			
 			// aapt resource value: 0x7f0201f8
-			public const int LagottoRomagnolo = 2130838008;
+			public const int LabradorRetriever = 2130838008;
 			
 			// aapt resource value: 0x7f0201f9
-			public const int LakelandTerrier = 2130838009;
+			public const int LaekenseHerder = 2130838009;
 			
 			// aapt resource value: 0x7f0201fa
-			public const int Landseer = 2130838010;
+			public const int LagottoRomagnolo = 2130838010;
 			
 			// aapt resource value: 0x7f0201fb
-			public const int Lapinporokoira = 2130838011;
+			public const int LakelandTerrier = 2130838011;
 			
 			// aapt resource value: 0x7f0201fc
-			public const int Leeuwhondje = 2130838012;
+			public const int Landseer = 2130838012;
 			
 			// aapt resource value: 0x7f0201fd
-			public const int Leonberger = 2130838013;
+			public const int Lapinporokoira = 2130838013;
 			
 			// aapt resource value: 0x7f0201fe
-			public const int LhasaApso = 2130838014;
+			public const int Leeuwhondje = 2130838014;
 			
 			// aapt resource value: 0x7f0201ff
-			public const int Logo = 2130838015;
+			public const int Leonberger = 2130838015;
 			
 			// aapt resource value: 0x7f020200
-			public const int LuzernerLaufhund = 2130838016;
+			public const int LhasaApso = 2130838016;
 			
 			// aapt resource value: 0x7f020201
-			public const int Maltezer = 2130838017;
+			public const int Logo = 2130838017;
 			
 			// aapt resource value: 0x7f020202
-			public const int ManchesterTerrier = 2130838018;
+			public const int LuzernerLaufhund = 2130838018;
 			
 			// aapt resource value: 0x7f020203
-			public const int Markiesje = 2130838019;
+			public const int Maltezer = 2130838019;
 			
 			// aapt resource value: 0x7f020204
-			public const int Mastiff = 2130838020;
+			public const int ManchesterTerrier = 2130838020;
 			
 			// aapt resource value: 0x7f020205
-			public const int MastinDelPirineo = 2130838021;
+			public const int Markiesje = 2130838021;
 			
 			// aapt resource value: 0x7f020206
-			public const int MastinEspanol = 2130838022;
+			public const int Mastiff = 2130838022;
 			
 			// aapt resource value: 0x7f020207
-			public const int MastinoNapoletano = 2130838023;
+			public const int MastinDelPirineo = 2130838023;
 			
 			// aapt resource value: 0x7f020208
-			public const int MechelseHerder = 2130838024;
+			public const int MastinEspanol = 2130838024;
 			
 			// aapt resource value: 0x7f020209
-			public const int MexicaanseNaakthond = 2130838025;
+			public const int MastinoNapoletano = 2130838025;
 			
 			// aapt resource value: 0x7f02020a
-			public const int MiddenslagPoedel = 2130838026;
+			public const int MechelseHerder = 2130838026;
 			
 			// aapt resource value: 0x7f02020b
-			public const int MiddenslagSchnauzer = 2130838027;
+			public const int MexicaanseNaakthond = 2130838027;
 			
 			// aapt resource value: 0x7f02020c
-			public const int Mopshond = 2130838028;
+			public const int MiddenslagPoedel = 2130838028;
 			
 			// aapt resource value: 0x7f02020d
-			public const int mr_button_connected_dark = 2130838029;
+			public const int MiddenslagSchnauzer = 2130838029;
 			
 			// aapt resource value: 0x7f02020e
-			public const int mr_button_connected_light = 2130838030;
+			public const int Mopshond = 2130838030;
 			
 			// aapt resource value: 0x7f02020f
-			public const int mr_button_connecting_dark = 2130838031;
+			public const int mr_button_connected_dark = 2130838031;
 			
 			// aapt resource value: 0x7f020210
-			public const int mr_button_connecting_light = 2130838032;
+			public const int mr_button_connected_light = 2130838032;
 			
 			// aapt resource value: 0x7f020211
-			public const int mr_button_dark = 2130838033;
+			public const int mr_button_connecting_dark = 2130838033;
 			
 			// aapt resource value: 0x7f020212
-			public const int mr_button_light = 2130838034;
+			public const int mr_button_connecting_light = 2130838034;
 			
 			// aapt resource value: 0x7f020213
-			public const int mr_dialog_close_dark = 2130838035;
+			public const int mr_button_dark = 2130838035;
 			
 			// aapt resource value: 0x7f020214
-			public const int mr_dialog_close_light = 2130838036;
+			public const int mr_button_light = 2130838036;
 			
 			// aapt resource value: 0x7f020215
-			public const int mr_dialog_material_background_dark = 2130838037;
+			public const int mr_dialog_close_dark = 2130838037;
 			
 			// aapt resource value: 0x7f020216
-			public const int mr_dialog_material_background_light = 2130838038;
+			public const int mr_dialog_close_light = 2130838038;
 			
 			// aapt resource value: 0x7f020217
-			public const int mr_group_collapse = 2130838039;
+			public const int mr_dialog_material_background_dark = 2130838039;
 			
 			// aapt resource value: 0x7f020218
-			public const int mr_group_expand = 2130838040;
+			public const int mr_dialog_material_background_light = 2130838040;
 			
 			// aapt resource value: 0x7f020219
-			public const int mr_media_pause_dark = 2130838041;
+			public const int mr_group_collapse = 2130838041;
 			
 			// aapt resource value: 0x7f02021a
-			public const int mr_media_pause_light = 2130838042;
+			public const int mr_group_expand = 2130838042;
 			
 			// aapt resource value: 0x7f02021b
-			public const int mr_media_play_dark = 2130838043;
+			public const int mr_media_pause_dark = 2130838043;
 			
 			// aapt resource value: 0x7f02021c
-			public const int mr_media_play_light = 2130838044;
+			public const int mr_media_pause_light = 2130838044;
 			
 			// aapt resource value: 0x7f02021d
-			public const int mr_media_stop_dark = 2130838045;
+			public const int mr_media_play_dark = 2130838045;
 			
 			// aapt resource value: 0x7f02021e
-			public const int mr_media_stop_light = 2130838046;
+			public const int mr_media_play_light = 2130838046;
 			
 			// aapt resource value: 0x7f02021f
-			public const int mr_vol_type_audiotrack_dark = 2130838047;
+			public const int mr_media_stop_dark = 2130838047;
 			
 			// aapt resource value: 0x7f020220
-			public const int mr_vol_type_audiotrack_light = 2130838048;
+			public const int mr_media_stop_light = 2130838048;
 			
 			// aapt resource value: 0x7f020221
-			public const int Mudi = 2130838049;
+			public const int mr_vol_type_audiotrack_dark = 2130838049;
 			
 			// aapt resource value: 0x7f020222
-			public const int navigation_empty_icon = 2130838050;
+			public const int mr_vol_type_audiotrack_light = 2130838050;
 			
 			// aapt resource value: 0x7f020223
-			public const int Newfoundlander = 2130838051;
+			public const int Mudi = 2130838051;
 			
 			// aapt resource value: 0x7f020224
-			public const int NoorseBuhund = 2130838052;
+			public const int navigation_empty_icon = 2130838052;
 			
 			// aapt resource value: 0x7f020225
-			public const int NoorseElandhond = 2130838053;
+			public const int Newfoundlander = 2130838053;
 			
 			// aapt resource value: 0x7f020226
-			public const int NoorseLundehond = 2130838054;
+			public const int NoorseBuhund = 2130838054;
 			
 			// aapt resource value: 0x7f020227
-			public const int NorfolkTerrier = 2130838055;
+			public const int NoorseElandhond = 2130838055;
 			
 			// aapt resource value: 0x7f020228
-			public const int Norrbottenspets = 2130838056;
+			public const int NoorseLundehond = 2130838056;
 			
 			// aapt resource value: 0x7f020229
-			public const int NorwichTerrier = 2130838057;
+			public const int NorfolkTerrier = 2130838057;
 			
 			// aapt resource value: 0x7f02022a
-			public const int notification_action_background = 2130838058;
+			public const int Norrbottenspets = 2130838058;
 			
 			// aapt resource value: 0x7f02022b
-			public const int notification_bg = 2130838059;
+			public const int NorwichTerrier = 2130838059;
 			
 			// aapt resource value: 0x7f02022c
-			public const int notification_bg_low = 2130838060;
+			public const int notification_action_background = 2130838060;
 			
 			// aapt resource value: 0x7f02022d
-			public const int notification_bg_low_normal = 2130838061;
+			public const int notification_bg = 2130838061;
 			
 			// aapt resource value: 0x7f02022e
-			public const int notification_bg_low_pressed = 2130838062;
+			public const int notification_bg_low = 2130838062;
 			
 			// aapt resource value: 0x7f02022f
-			public const int notification_bg_normal = 2130838063;
+			public const int notification_bg_low_normal = 2130838063;
 			
 			// aapt resource value: 0x7f020230
-			public const int notification_bg_normal_pressed = 2130838064;
+			public const int notification_bg_low_pressed = 2130838064;
 			
 			// aapt resource value: 0x7f020231
-			public const int notification_icon_background = 2130838065;
-			
-			// aapt resource value: 0x7f0202a2
-			public const int notification_template_icon_bg = 2130838178;
-			
-			// aapt resource value: 0x7f0202a3
-			public const int notification_template_icon_low_bg = 2130838179;
+			public const int notification_bg_normal = 2130838065;
 			
 			// aapt resource value: 0x7f020232
-			public const int notification_tile_bg = 2130838066;
+			public const int notification_bg_normal_pressed = 2130838066;
 			
 			// aapt resource value: 0x7f020233
-			public const int notify_panel_notification_icon_bg = 2130838067;
+			public const int notification_icon_background = 2130838067;
+			
+			// aapt resource value: 0x7f0202a4
+			public const int notification_template_icon_bg = 2130838180;
+			
+			// aapt resource value: 0x7f0202a5
+			public const int notification_template_icon_low_bg = 2130838181;
 			
 			// aapt resource value: 0x7f020234
-			public const int NovaScotiaDuckTollingRetriever = 2130838068;
+			public const int notification_tile_bg = 2130838068;
 			
 			// aapt resource value: 0x7f020235
-			public const int OgarPolski = 2130838069;
+			public const int notify_panel_notification_icon_bg = 2130838069;
 			
 			// aapt resource value: 0x7f020236
-			public const int OldEnglishSheepdog = 2130838070;
+			public const int NovaScotiaDuckTollingRetriever = 2130838070;
 			
 			// aapt resource value: 0x7f020237
-			public const int OostenrijksePinscher = 2130838071;
+			public const int OgarPolski = 2130838071;
 			
 			// aapt resource value: 0x7f020238
-			public const int OostsiberischeLaika = 2130838072;
+			public const int OldEnglishSheepdog = 2130838072;
 			
 			// aapt resource value: 0x7f020239
-			public const int Otterhound = 2130838073;
+			public const int OostenrijksePinscher = 2130838073;
 			
 			// aapt resource value: 0x7f02023a
-			public const int OudduitseHerder = 2130838074;
+			public const int OostsiberischeLaika = 2130838074;
 			
 			// aapt resource value: 0x7f02023b
-			public const int ParsonRussellTerrier = 2130838075;
+			public const int Otterhound = 2130838075;
 			
 			// aapt resource value: 0x7f02023c
-			public const int PatterdaleTerrier = 2130838076;
+			public const int OudduitseHerder = 2130838076;
 			
 			// aapt resource value: 0x7f02023d
-			public const int Pekingees = 2130838077;
+			public const int ParsonRussellTerrier = 2130838077;
 			
 			// aapt resource value: 0x7f02023e
-			public const int PerdigueiroDeBurgos = 2130838078;
+			public const int PatterdaleTerrier = 2130838078;
 			
 			// aapt resource value: 0x7f02023f
-			public const int PerdigueiroPortugues = 2130838079;
+			public const int Pekingees = 2130838079;
 			
 			// aapt resource value: 0x7f020240
-			public const int PerroDeAguaEspanol = 2130838080;
+			public const int PerdigueiroDeBurgos = 2130838080;
 			
 			// aapt resource value: 0x7f020241
-			public const int PeruaanseNaakthond = 2130838081;
+			public const int PerdigueiroPortugues = 2130838081;
 			
 			// aapt resource value: 0x7f020242
-			public const int PetitBassetGriffonVendeen = 2130838082;
+			public const int PerroDeAguaEspanol = 2130838082;
 			
 			// aapt resource value: 0x7f020243
-			public const int PetitBleuDeGascogne = 2130838083;
+			public const int PeruaanseNaakthond = 2130838083;
 			
 			// aapt resource value: 0x7f020244
-			public const int PetitBrabancon = 2130838084;
+			public const int PetitBassetGriffonVendeen = 2130838084;
 			
 			// aapt resource value: 0x7f020245
-			public const int PetitGasconSaintongeois = 2130838085;
+			public const int PetitBleuDeGascogne = 2130838085;
 			
 			// aapt resource value: 0x7f020246
-			public const int Pharaohond = 2130838086;
+			public const int PetitBrabancon = 2130838086;
 			
 			// aapt resource value: 0x7f020247
-			public const int PicardischeHerdershond = 2130838087;
+			public const int PetitGasconSaintongeois = 2130838087;
 			
 			// aapt resource value: 0x7f020248
-			public const int PodencoCanario = 2130838088;
+			public const int Pharaohond = 2130838088;
 			
 			// aapt resource value: 0x7f020249
-			public const int PodencoIbicenco = 2130838089;
+			public const int PicardischeHerdershond = 2130838089;
 			
 			// aapt resource value: 0x7f02024a
-			public const int PoedelPointer = 2130838090;
+			public const int PodencoCanario = 2130838090;
 			
 			// aapt resource value: 0x7f02024b
-			public const int Pointer = 2130838091;
+			public const int PodencoIbicenco = 2130838091;
 			
 			// aapt resource value: 0x7f02024c
-			public const int Poitevin = 2130838092;
+			public const int PoedelPointer = 2130838092;
 			
 			// aapt resource value: 0x7f02024d
-			public const int PondengoPortugues = 2130838093;
+			public const int Pointer = 2130838093;
 			
 			// aapt resource value: 0x7f02024e
-			public const int PoolseLaaglandherder = 2130838094;
+			public const int Poitevin = 2130838094;
 			
 			// aapt resource value: 0x7f02024f
-			public const int Porcelaine = 2130838095;
+			public const int PondengoPortugues = 2130838095;
 			
 			// aapt resource value: 0x7f020250
-			public const int PortugeseWaterhond = 2130838096;
+			public const int PoolseLaaglandherder = 2130838096;
 			
 			// aapt resource value: 0x7f020251
-			public const int PosavskiGonic = 2130838097;
+			public const int Porcelaine = 2130838097;
 			
 			// aapt resource value: 0x7f020252
-			public const int Pronkrug = 2130838098;
+			public const int PortugeseWaterhond = 2130838098;
 			
 			// aapt resource value: 0x7f020253
-			public const int Puggle = 2130838099;
+			public const int PosavskiGonic = 2130838099;
 			
 			// aapt resource value: 0x7f020254
-			public const int Puli = 2130838100;
+			public const int Pronkrug = 2130838100;
 			
 			// aapt resource value: 0x7f020255
-			public const int Pumi = 2130838101;
+			public const int Puggle = 2130838101;
 			
 			// aapt resource value: 0x7f020256
-			public const int PyreneeseBerghond = 2130838102;
+			public const int Puli = 2130838102;
 			
 			// aapt resource value: 0x7f020257
-			public const int PyreneeseHerdershond = 2130838103;
+			public const int Pumi = 2130838103;
 			
 			// aapt resource value: 0x7f020258
-			public const int random = 2130838104;
+			public const int PyreneeseBerghond = 2130838104;
 			
 			// aapt resource value: 0x7f020259
-			public const int Reisenschnauzer = 2130838105;
+			public const int PyreneeseHerdershond = 2130838105;
 			
 			// aapt resource value: 0x7f02025a
-			public const int Rottweiler = 2130838106;
+			public const int random = 2130838106;
 			
 			// aapt resource value: 0x7f02025b
-			public const int RussischeToyTerrier = 2130838107;
+			public const int Reisenschnauzer = 2130838107;
 			
 			// aapt resource value: 0x7f02025c
-			public const int RussischEuropeseLaika = 2130838108;
+			public const int Rottweiler = 2130838108;
 			
 			// aapt resource value: 0x7f02025d
-			public const int SaarloosWolfhond = 2130838109;
+			public const int RussischeToyTerrier = 2130838109;
 			
 			// aapt resource value: 0x7f02025e
-			public const int SabuesoEspanol = 2130838110;
+			public const int RussischEuropeseLaika = 2130838110;
 			
 			// aapt resource value: 0x7f02025f
-			public const int Saluki = 2130838111;
+			public const int SaarloosWolfhond = 2130838111;
 			
 			// aapt resource value: 0x7f020260
-			public const int Samojeed = 2130838112;
+			public const int SabuesoEspanol = 2130838112;
 			
 			// aapt resource value: 0x7f020261
-			public const int Sarplaninac = 2130838113;
+			public const int Saluki = 2130838113;
 			
 			// aapt resource value: 0x7f020262
-			public const int Schapendoes = 2130838114;
+			public const int Samojeed = 2130838114;
 			
 			// aapt resource value: 0x7f020263
-			public const int Schillerstovare = 2130838115;
+			public const int Sarplaninac = 2130838115;
 			
 			// aapt resource value: 0x7f020264
-			public const int Schipperke = 2130838116;
+			public const int Schapendoes = 2130838116;
 			
 			// aapt resource value: 0x7f020265
-			public const int SchotseHerdershond = 2130838117;
+			public const int Schillerstovare = 2130838117;
 			
 			// aapt resource value: 0x7f020266
-			public const int SchotseTerrier = 2130838118;
+			public const int Schipperke = 2130838118;
 			
 			// aapt resource value: 0x7f020267
-			public const int SchweizerLaufhund = 2130838119;
+			public const int SchotseHerdershond = 2130838119;
 			
 			// aapt resource value: 0x7f020268
-			public const int SealyhamTerrier = 2130838120;
+			public const int SchotseTerrier = 2130838120;
 			
 			// aapt resource value: 0x7f020269
-			public const int SegugioItaliano = 2130838121;
+			public const int SchweizerLaufhund = 2130838121;
 			
 			// aapt resource value: 0x7f02026a
-			public const int SharPei = 2130838122;
+			public const int SealyhamTerrier = 2130838122;
 			
 			// aapt resource value: 0x7f02026b
-			public const int Sheltie = 2130838123;
+			public const int SegugioItaliano = 2130838123;
 			
 			// aapt resource value: 0x7f02026c
-			public const int Shiba = 2130838124;
+			public const int SharPei = 2130838124;
 			
 			// aapt resource value: 0x7f02026d
-			public const int ShihTzu = 2130838125;
+			public const int Sheltie = 2130838125;
 			
 			// aapt resource value: 0x7f02026e
-			public const int Shikoku = 2130838126;
+			public const int Shiba = 2130838126;
 			
 			// aapt resource value: 0x7f02026f
-			public const int SiberischeHusky = 2130838127;
+			public const int ShihTzu = 2130838127;
 			
 			// aapt resource value: 0x7f020270
-			public const int SilkenWindhound = 2130838128;
+			public const int Shikoku = 2130838128;
 			
 			// aapt resource value: 0x7f020271
-			public const int SintBernardKortHaar = 2130838129;
+			public const int SiberischeHusky = 2130838129;
 			
 			// aapt resource value: 0x7f020272
-			public const int SintBernardLangHaar = 2130838130;
+			public const int SilkenWindhound = 2130838130;
 			
 			// aapt resource value: 0x7f020273
-			public const int SkyeTierrier = 2130838131;
+			public const int SintBernardKortHaar = 2130838131;
 			
 			// aapt resource value: 0x7f020274
-			public const int Sloughi = 2130838132;
+			public const int SintBernardLangHaar = 2130838132;
 			
 			// aapt resource value: 0x7f020275
-			public const int SlovenskyCuvac = 2130838133;
+			public const int SkyeTierrier = 2130838133;
 			
 			// aapt resource value: 0x7f020276
-			public const int SlovenskyKopov = 2130838134;
+			public const int Sloughi = 2130838134;
 			
 			// aapt resource value: 0x7f020277
-			public const int SlowaakseStaandeHond = 2130838135;
+			public const int SlovenskyCuvac = 2130838135;
 			
 			// aapt resource value: 0x7f020278
-			public const int Smalandstovare = 2130838136;
+			public const int SlovenskyKopov = 2130838136;
 			
 			// aapt resource value: 0x7f020279
-			public const int SpinoneItaliano = 2130838137;
+			public const int SlowaakseStaandeHond = 2130838137;
 			
 			// aapt resource value: 0x7f02027a
-			public const int SrpskiGonic = 2130838138;
+			public const int Smalandstovare = 2130838138;
 			
 			// aapt resource value: 0x7f02027b
-			public const int SrpskiTrobojniGonic = 2130838139;
+			public const int SpinoneItaliano = 2130838139;
 			
 			// aapt resource value: 0x7f02027c
-			public const int Stabij = 2130838140;
+			public const int SrpskiGonic = 2130838140;
 			
 			// aapt resource value: 0x7f02027d
-			public const int SteirischeTauhhaarbracke = 2130838141;
+			public const int SrpskiTrobojniGonic = 2130838141;
 			
 			// aapt resource value: 0x7f02027e
-			public const int SussexSpaniel = 2130838142;
+			public const int Stabij = 2130838142;
 			
 			// aapt resource value: 0x7f02027f
-			public const int Taiwandog = 2130838143;
+			public const int SteirischeTauhhaarbracke = 2130838143;
 			
 			// aapt resource value: 0x7f020280
-			public const int TatraHond = 2130838144;
+			public const int SussexSpaniel = 2130838144;
 			
 			// aapt resource value: 0x7f020281
-			public const int TervuerenseHerder = 2130838145;
+			public const int Taiwandog = 2130838145;
 			
 			// aapt resource value: 0x7f020282
-			public const int ThaisePronkrug = 2130838146;
+			public const int TatraHond = 2130838146;
 			
 			// aapt resource value: 0x7f020283
-			public const int TibetaanseMastiff = 2130838147;
+			public const int TervuerenseHerder = 2130838147;
 			
 			// aapt resource value: 0x7f020284
-			public const int TibetaanseSpaniel = 2130838148;
+			public const int ThaisePronkrug = 2130838148;
 			
 			// aapt resource value: 0x7f020285
-			public const int TibetaanseTerrier = 2130838149;
+			public const int TibetaanseMastiff = 2130838149;
 			
 			// aapt resource value: 0x7f020286
-			public const int TirolerBrak = 2130838150;
+			public const int TibetaanseSpaniel = 2130838150;
 			
 			// aapt resource value: 0x7f020287
-			public const int tooltip_frame_dark = 2130838151;
+			public const int TibetaanseTerrier = 2130838151;
 			
 			// aapt resource value: 0x7f020288
-			public const int tooltip_frame_light = 2130838152;
+			public const int TirolerBrak = 2130838152;
 			
 			// aapt resource value: 0x7f020289
-			public const int Tornjak = 2130838153;
+			public const int tooltip_frame_dark = 2130838153;
 			
 			// aapt resource value: 0x7f02028a
-			public const int Tosa = 2130838154;
+			public const int tooltip_frame_light = 2130838154;
 			
 			// aapt resource value: 0x7f02028b
-			public const int ToyPoedel = 2130838155;
+			public const int Tornjak = 2130838155;
 			
 			// aapt resource value: 0x7f02028c
-			public const int TsjechoSlowaakseWolfhond = 2130838156;
+			public const int Tosa = 2130838156;
 			
 			// aapt resource value: 0x7f02028d
-			public const int unfav = 2130838157;
+			public const int ToyPoedel = 2130838157;
 			
 			// aapt resource value: 0x7f02028e
-			public const int Vallhund = 2130838158;
+			public const int TsjechoSlowaakseWolfhond = 2130838158;
 			
 			// aapt resource value: 0x7f02028f
-			public const int VizslaDraadhaar = 2130838159;
+			public const int unfav = 2130838159;
 			
 			// aapt resource value: 0x7f020290
-			public const int VizslaKorthaar = 2130838160;
+			public const int Vallhund = 2130838160;
 			
 			// aapt resource value: 0x7f020291
-			public const int VolpinoItaliano = 2130838161;
+			public const int VizslaDraadhaar = 2130838161;
 			
 			// aapt resource value: 0x7f020292
-			public const int WeimarseStaandeHond = 2130838162;
+			public const int VizslaKorthaar = 2130838162;
 			
 			// aapt resource value: 0x7f020293
-			public const int WelshCorgi = 2130838163;
+			public const int VolpinoItaliano = 2130838163;
 			
 			// aapt resource value: 0x7f020294
-			public const int WelshSpringerSpaniel = 2130838164;
+			public const int WeimarseStaandeHond = 2130838164;
 			
 			// aapt resource value: 0x7f020295
-			public const int WelshTerrier = 2130838165;
+			public const int WelshCorgi = 2130838165;
 			
 			// aapt resource value: 0x7f020296
-			public const int WestfaalseDasbrak = 2130838166;
+			public const int WelshSpringerSpaniel = 2130838166;
 			
 			// aapt resource value: 0x7f020297
-			public const int WestHighlandWhiteTerrier = 2130838167;
+			public const int WelshTerrier = 2130838167;
 			
 			// aapt resource value: 0x7f020298
-			public const int WestSiberischeLaika = 2130838168;
+			public const int WestfaalseDasbrak = 2130838168;
 			
 			// aapt resource value: 0x7f020299
-			public const int Wetterhoun = 2130838169;
+			public const int WestHighlandWhiteTerrier = 2130838169;
 			
 			// aapt resource value: 0x7f02029a
-			public const int Whippet = 2130838170;
+			public const int WestSiberischeLaika = 2130838170;
 			
 			// aapt resource value: 0x7f02029b
-			public const int YorkshireTerrier = 2130838171;
+			public const int Wetterhoun = 2130838171;
 			
 			// aapt resource value: 0x7f02029c
-			public const int ZuidOostEuropeseHerder = 2130838172;
+			public const int Whippet = 2130838172;
 			
 			// aapt resource value: 0x7f02029d
-			public const int ZuidRussischeOwcharka = 2130838173;
+			public const int YorkshireTerrier = 2130838173;
 			
 			// aapt resource value: 0x7f02029e
-			public const int ZwarteRussicheTerrier = 2130838174;
+			public const int ZuidOostEuropeseHerder = 2130838174;
 			
 			// aapt resource value: 0x7f02029f
-			public const int ZweedseLappenhond = 2130838175;
+			public const int ZuidRussischeOwcharka = 2130838175;
 			
 			// aapt resource value: 0x7f0202a0
-			public const int ZwitserseLopendeHond = 2130838176;
+			public const int ZwarteRussicheTerrier = 2130838176;
 			
 			// aapt resource value: 0x7f0202a1
-			public const int ZwitserseWitteHerder = 2130838177;
+			public const int ZweedseLappenhond = 2130838177;
+			
+			// aapt resource value: 0x7f0202a2
+			public const int ZwitserseLopendeHond = 2130838178;
+			
+			// aapt resource value: 0x7f0202a3
+			public const int ZwitserseWitteHerder = 2130838179;
 			
 			static Drawable()
 			{

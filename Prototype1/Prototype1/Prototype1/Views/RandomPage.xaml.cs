@@ -104,7 +104,10 @@ namespace Prototype1.Views
                 var dbPath = Path.Combine(targetPath, "DogDBFour.db");
                 var page = new RandomPage(dbPath, _doggos[randomdoggo]); // navigate to the "DoggoDetailpage" and give the dbPath and the data of the random dog with it
                 page.BindingContext = _doggos[randomdoggo]; // set the bindingcontext to the data of the random dog 
-                await Navigation.PushAsync(page);
+                //await Navigation.PushAsync(page);
+
+                Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
+                await Navigation.PopAsync();
             }
         }
 

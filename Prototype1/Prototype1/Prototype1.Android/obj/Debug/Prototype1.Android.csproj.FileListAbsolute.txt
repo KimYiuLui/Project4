@@ -1118,6 +1118,8 @@ C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\iconchildfriendly.png
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\iconage.png
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\iconinstelling.png
+C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\iconza.png
+C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\iconaz.png
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\bin\Debug\Prototype1.Android.dll
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\linksrc\Prototype1.pdb
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\linksrc\Prototype1.Android.dll.mdb

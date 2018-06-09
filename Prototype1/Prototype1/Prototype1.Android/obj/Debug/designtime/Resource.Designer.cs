@@ -2925,6 +2925,9 @@ namespace Prototype1.Droid
 			public static int IconAge = 0;
 			
 			// aapt resource value: 0
+			public static int IconAZ = 0;
+			
+			// aapt resource value: 0
 			public static int IconChildfriendly = 0;
 			
 			// aapt resource value: 0
@@ -2947,6 +2950,9 @@ namespace Prototype1.Droid
 			
 			// aapt resource value: 0
 			public static int IconWeight = 0;
+			
+			// aapt resource value: 0
+			public static int IconZA = 0;
 			
 			// aapt resource value: 2131296340
 			public static int ic_audiotrack_dark = 2131296340;
