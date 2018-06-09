@@ -114,7 +114,7 @@ Dit project is gemaakt door:
                 }
                 catch
                 {
-                    await DisplayAlert("Notificatie", "U heeft nog geen hond toegevoegd aan de favorietenlijst", "Oké");
+                    await DisplayAlert("Notificatie", "U heeft nog geen hond toegevoegd aan uw favorietenlijst", "Oké");
                 }
             }
             else

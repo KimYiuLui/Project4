@@ -24,6 +24,11 @@ namespace Prototype1.Droid
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
+		public static void UpdateIdValues()
+		{
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Prototype1.Droid.Resource.Attribute.actionBarSize;
+		}
+		
 		public partial class Animation
 		{
 			
@@ -2930,6 +2935,9 @@ namespace Prototype1.Droid
 			
 			// aapt resource value: 0
 			public static int IconHeight = 0;
+			
+			// aapt resource value: 0
+			public static int IconInstelling = 0;
 			
 			// aapt resource value: 0
 			public static int IconTail = 0;
