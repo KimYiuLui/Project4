@@ -365,11 +365,18 @@ namespace Prototype1.Views
             if (Antwoorden == "1A2A3B")
             {
                 Antwoord4A.IsVisible = false;
+                Antwoord4B.IsVisible = false;
+                Antwoord4C.IsVisible = false;
+                Image4.IsVisible = false;
+                Vraag4.IsVisible = false;
+                Antwoord5A.IsVisible = true;
+                Antwoord5B.IsVisible = true;
+                Antwoord5C.IsVisible = true;
+                Image5.IsVisible = true;
+                Vraag5.IsVisible = true;
+                Antwoorden = Antwoorden + "4C";
+                Antwoord4B.IsVisible = false;
             }
-
-
-
-
 
             if (Antwoorden == "1B2B3B")
             {
@@ -381,13 +388,6 @@ namespace Prototype1.Views
                 Antwoord4A.IsVisible = false;
             }
 
-
-
-
-            if (Antwoorden == "1A2A3B")
-            {
-                Antwoord4B.IsVisible = false;
-            }
 
             if (Antwoorden == "1A2C3B")
             {
