@@ -2412,6 +2412,9 @@ namespace Prototype1.Droid
 			public static int Background = 0;
 			
 			// aapt resource value: 0
+			public static int BackgroundOne = 0;
+			
+			// aapt resource value: 0
 			public static int Barbet = 0;
 			
 			// aapt resource value: 0
@@ -2917,6 +2920,39 @@ namespace Prototype1.Droid
 			
 			// aapt resource value: 0
 			public static int icon = 0;
+			
+			// aapt resource value: 0
+			public static int IconAge = 0;
+			
+			// aapt resource value: 0
+			public static int IconAZ = 0;
+			
+			// aapt resource value: 0
+			public static int IconChildfriendly = 0;
+			
+			// aapt resource value: 0
+			public static int IconColor = 0;
+			
+			// aapt resource value: 0
+			public static int IconFur = 0;
+			
+			// aapt resource value: 0
+			public static int IconHeight = 0;
+			
+			// aapt resource value: 0
+			public static int IconInstelling = 0;
+			
+			// aapt resource value: 0
+			public static int IconTail = 0;
+			
+			// aapt resource value: 0
+			public static int IconType = 0;
+			
+			// aapt resource value: 0
+			public static int IconWeight = 0;
+			
+			// aapt resource value: 0
+			public static int IconZA = 0;
 			
 			// aapt resource value: 2131296340
 			public static int ic_audiotrack_dark = 2131296340;

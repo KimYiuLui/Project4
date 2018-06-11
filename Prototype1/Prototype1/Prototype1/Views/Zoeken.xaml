@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Prototype1.Views.Zoeken" BackgroundImage="Background.png" Title="Zoeken">
+             x:Class="Prototype1.Views.Zoeken" Title="Zoeken" BackgroundImage="{DynamicResource backgroundImg}">
     <StackLayout Padding="10,5,10,20">
-        <SearchBar Placeholder="Zoeken..." TextChanged="SearchBar_TextChanged" BackgroundColor="White" TextColor="Black"/>
-        <ListView x:Name="DoggoListView" IsPullToRefreshEnabled="True" Margin="0,5,0,0"
+        <SearchBar Placeholder="  Zoeken..." TextChanged="SearchBar_TextChanged" BackgroundColor="White" TextColor="Black" />
+        <ListView x:Name="DoggoListView" Margin="0,5,0,0"
                       BackgroundColor="White" ItemTapped="DoggoTapped" ItemSelected="DoggoSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>

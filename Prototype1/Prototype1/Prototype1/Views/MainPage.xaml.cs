@@ -5,8 +5,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace Prototype1
@@ -15,10 +13,20 @@ namespace Prototype1
     {
         private SQLiteAsyncConnection _connection; 
         private List<Doggo> _doggos;
+        string overOns =
+@"Deze App is gemaakt voor mensen die meer inzicht willen hebben over verschillende honden rassen. Door deze app kan iedereen waar dan ook informatie vinden van verchillende honden rassen.   
+
+Dit project is gemaakt door: 
+- Imre Baas
+- Ivo Kalverboer
+- Kim Yiu Lui
+- Hoes Öztürk";
+
 
         public MainPage(string dbPath)
         {
             _connection = new SQLiteAsyncConnection(dbPath); // make a sqlite connection with the dbPath which is DogDBThree.db
+            
             CreateFavoriteDB();
             InitializeComponent();
         }
@@ -59,9 +67,35 @@ namespace Prototype1
             }
         }
 
-        void SettingBtnClicked(object sender, System.EventArgs e)
+        async void SettingBtnClicked(object sender, System.EventArgs e)
         {
-            DisplayAlert("NOTE", "Currently under construction no action avialable yet.", "OK");
+            var instelling =  await DisplayActionSheet("Instellingen", "Annuleren", null, "Aanpassen", "Over ons");
+            switch (instelling)
+            {
+                case "Aanpassen": AanpassenClicked();
+                    return;
+                case "Over ons": OveronsClicked();
+                    return;
+            }
+        }
+
+        async void OveronsClicked()
+        {
+           await DisplayAlert("Over ons", overOns, "Terug");
+        }
+
+        async void AanpassenClicked()
+        {
+            var aanpassen = await DisplayActionSheet("Kleuraanpassen", "Annuleren", null, "groen", "wit");
+            switch (aanpassen)
+            {
+                case "groen":
+                    App.Current.Resources["backgroundImg"] = "Background.png";
+                    return;
+                case "wit":
+                    App.Current.Resources["backgroundImg"] = "BackgroundOne.png";
+                    return;
+            }
         }
 
         async void FavBtnClicked(object sender, System.EventArgs e)
@@ -80,7 +114,7 @@ namespace Prototype1
                 }
                 catch
                 {
-                    await DisplayAlert("Notificatie", "U heeft nog geen hond toegevoegd aan de favorietenlijst", "Oké");
+                    await DisplayAlert("Notificatie", "U heeft nog geen hond toegevoegd aan uw favorietenlijst", "Oké");
                 }
             }
             else

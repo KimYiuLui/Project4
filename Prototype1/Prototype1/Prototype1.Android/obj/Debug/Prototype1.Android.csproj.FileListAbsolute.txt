@@ -1034,6 +1034,18 @@ C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\random.ico
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\fav.ico
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\unfav.ico
+C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\backgroundone.png
+C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\iconfur.png
+C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\icontype.png
+C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\iconcolor.png
+C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\iconweight.png
+C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\iconheight.png
+C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\icontail.png
+C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\iconchildfriendly.png
+C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\iconage.png
+C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\iconinstelling.png
+C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\iconza.png
+C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\res\drawable\iconaz.png
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\R.cs.flag
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\R.txt
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\uploadflags.txt
@@ -1109,7 +1121,6 @@ C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\bin\Debug\Prototype1.Android.dll
-C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\linksrc\Prototype1.pdb
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\linksrc\Prototype1.Android.dll.mdb
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\KimYiuLui\Desktop\Project4\Prototype1\Prototype1\Prototype1.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

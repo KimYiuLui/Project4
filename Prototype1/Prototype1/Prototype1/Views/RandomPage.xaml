@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Prototype1.Views.RandomPage" BackgroundImage="Background.png" Title="Informatie pagina" NavigationPage.HasBackButton="False">
+             x:Class="Prototype1.Views.RandomPage" Title="Informatie pagina" NavigationPage.HasBackButton="False" BackgroundImage="{DynamicResource backgroundImg}">
     <ContentPage.ToolbarItems>
         <ToolbarItem Icon="home.png" Clicked="Homeclicked"/>
         <ToolbarItem x:Name="FavXAML"/>
@@ -12,46 +12,65 @@
         <Label Text="{Binding Name}" HorizontalOptions="Center" FontSize="26" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
         <Image Source="{Binding Img}" HorizontalOptions="Center" HeightRequest="200" WidthRequest="200" Margin="0,0,0,0"/>
         <ScrollView HorizontalOptions="Center" Padding="10,0,10,20" IsClippedToBounds="True" BackgroundColor="White">
-            <StackLayout>
-                <Label Text="Types" FontAttributes="Bold" Margin="0,5,0,0" TextColor="Black"/>
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="{Binding TypeOne}" Margin="0,0,0,10" TextColor="Black"/>
-                    <Label Text="{Binding TypeTwo}" Margin="0,0,0,10" TextColor="Black"/>
-                </StackLayout>
+            <StackLayout Padding="0,5,0,0">
+                <Grid RowSpacing="0" ColumnSpacing="10" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
 
-                <Label Text="Kindvriendelijkheid" FontAttributes="Bold" TextColor="Black"/>
-                <Label Text="{Binding ChildFriendly}" Margin="0,0,0,10" TextColor="Black"/>
+                    <Image  Grid.Row="0" Grid.Column="0" Aspect="AspectFit" Source="IconAge.png"/>
+                    <Image  Grid.Row="0" Grid.Column="1" Aspect="AspectFit" Source="IconHeight.png"/>
+                    <Image  Grid.Row="0" Grid.Column="2" Aspect="AspectFit" Source="IconWeight.png"/>
 
-                <Label Text="Vacht" FontAttributes="Bold" TextColor="Black"/>
-                <Label Text="{Binding Fur}" Margin="0,0,0,10" TextColor="Black"/>
+                    <Label Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" Text="{Binding Age}"/>
+                    <Label Grid.Row="2" Grid.Column="0" HorizontalOptions="Center"  Text="jaar oud"/>
 
-                <Label Text="Kleur" FontAttributes="Bold" TextColor="Black"/>
-                <Label Text="{Binding Color}" Margin="0,0,0,10" TextColor="Black"/>
+                    <Label Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" Text="{Binding Height}"/>
+                    <Label Grid.Row="2" Grid.Column="1" HorizontalOptions="Center"  Text="cm"/>
 
+                    <Label Grid.Row="1" Grid.Column="2" HorizontalOptions="Center" Text="{Binding Weight}"/>
+                    <Label Grid.Row="2" Grid.Column="2" HorizontalOptions="Center"  Text="kg"/>
+                    <Label Grid.Row="3" Grid.Column="2" HorizontalOptions="Center"  Text=""/>
 
-                <Label Text="Staart" FontAttributes="Bold" TextColor="Black"/>
-                <Label Text="{Binding Tail}" Margin="0,0,0,10" TextColor="Black"/>
+                    <Image  Grid.Row="4" Grid.Column="0" Aspect="AspectFit" Source="IconType.png"/>
+                    <Image  Grid.Row="4" Grid.Column="1" Aspect="AspectFit" Source="IconFur.png"/>
+                    <Image  Grid.Row="4" Grid.Column="2" Aspect="AspectFit" Source="IconTail.png"/>
 
-                <Label Text="Gemiddelde leeftjd" FontAttributes="Bold" TextColor="Black"/>
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="{Binding Age}" Margin="0,0,0,10" TextColor="Black"/>
-                    <Label Text="jaar oud" Margin="0,0,0,10" TextColor="Black"/>
-                </StackLayout>
+                    <Label Grid.Row="5" Grid.Column="0" HorizontalOptions="Center" Text="{Binding TypeOne}"/>
+                    <Label Grid.Row="6" Grid.Column="0" HorizontalOptions="Center"  Text="{Binding TypeTwo}"/>
 
+                    <Label Grid.Row="5" Grid.Column="1" HorizontalOptions="Center" HorizontalTextAlignment="Center" Text="Vacht:"/>
+                    <Label Grid.Row="6" Grid.Column="1" HorizontalOptions="Center" HorizontalTextAlignment="Center" Text="{Binding Fur}"/>
 
-                <Label Text="Gemiddelde gewicht" FontAttributes="Bold" TextColor="Black"/>
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="{Binding Weight}" Margin="0,0,0,10" TextColor="Black"/>
-                    <Label Text="kg" Margin="0,0,0,10" TextColor="Black"/>
-                </StackLayout>
+                    <Label Grid.Row="5" Grid.Column="2" HorizontalOptions="Center" Text="Staart:"/>
+                    <Label Grid.Row="6" Grid.Column="2" HorizontalOptions="Center"  Text="{Binding Tail}"/>
+                    <Label Grid.Row="7" Grid.Column="0" HorizontalOptions="Center"  Text=""/>
 
-                <Label Text="Gemiddelde lengte" FontAttributes="Bold" TextColor="Black"/>
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="{Binding Height}" Margin="0,0,0,10" TextColor="Black"/>
-                    <Label Text="cm" Margin="0,0,0,10" TextColor="Black"/>
-                </StackLayout>
+                    <Image  Grid.Row="8" Grid.Column="0" Aspect="AspectFit" Source="IconChildfriendly.png"/>
+                    <Image  Grid.Row="8" Grid.Column="1" Aspect="AspectFit" Source="IconColor.png"/>
 
-                <Label Text="Algemeen" FontAttributes="Bold"/>
+                    <Label Grid.Row="9" Grid.Column="0" HorizontalOptions="Center" HorizontalTextAlignment="Center" Text="{Binding ChildFriendly}"/>
+                    <Label Grid.Row="9" Grid.Column="1" HorizontalOptions="Center" HorizontalTextAlignment="Center" Text="{Binding Color}"/>
+                    <Label Grid.Row="10" Grid.Column="0" HorizontalOptions="Center" HorizontalTextAlignment="Center" Text=""/>
+
+                </Grid>
+
+                <Label Text="Algemeen" FontAttributes="Bold" TextColor="Black"/>
                 <Label Text="{Binding InfoGeneral}" Margin="0,0,0,10" TextColor="Black"/>
 
                 <Label Text="Karakter" FontAttributes="Bold" TextColor="Black"/>

@@ -93,18 +93,28 @@ namespace Prototype1.Views
 
         async void RandomClicked(object sender, EventArgs e)
         {
-            await _connection.CreateTableAsync<Doggo>(); // create a table in the databasefile. (if it already exist it won't create it)
-            var doggoss = await _connection.Table<Doggo>().ToListAsync(); //put everything of the database in a list
-            _doggos = new List<Doggo>(doggoss); // make a new list of "Doggo" and put the "doggoss" as the values for the new list
-            var random = new Random();
-            var randomdoggo = random.Next(_doggos.Count); // get a random dog breed 
-            if (_doggos[randomdoggo] != null) // check if the random number is not null 
+            try
             {
-                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
-                var page = new RandomPage(dbPath, _doggos[randomdoggo]); // navigate to the "DoggoDetailpage" and give the dbPath and the data of the random dog with it
-                page.BindingContext = _doggos[randomdoggo]; // set the bindingcontext to the data of the random dog 
-                await Navigation.PushAsync(page);
+                await _connection.CreateTableAsync<Doggo>(); // create a table in the databasefile. (if it already exist it won't create it)
+                var doggoss = await _connection.Table<Doggo>().ToListAsync(); //put everything of the database in a list
+                _doggos = new List<Doggo>(doggoss); // make a new list of "Doggo" and put the "doggoss" as the values for the new list
+                var random = new Random();
+                var randomdoggo = random.Next(_doggos.Count); // get a random dog breed 
+                if (_doggos[randomdoggo] != null) // check if the random number is not null 
+                {
+                    string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                    var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                    var page = new RandomPage(dbPath, _doggos[randomdoggo]); // navigate to the "DoggoDetailpage" and give the dbPath and the data of the random dog with it
+                    page.BindingContext = _doggos[randomdoggo]; // set the bindingcontext to the data of the random dog 
+                                                                //await Navigation.PushAsync(page);
+
+                    Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
+                    await Navigation.PopAsync();
+                }
+            }
+            catch
+            {
+                return;
             }
         }
 
