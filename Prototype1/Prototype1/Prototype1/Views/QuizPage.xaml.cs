@@ -24,6 +24,7 @@ namespace Prototype1.Views
         private Label Vraag5;
 
         public string QueryQuiz = "SELECT * FROM NewDoggo WHERE ";
+        public string Antwoorden = "";
 
         //Globale Varabelen, gebruik QueryQuiz..QueryQuiz als voorbeeld.
 
@@ -148,14 +149,18 @@ namespace Prototype1.Views
             Antwoord1A.IsVisible = false;
             Antwoord1B.IsVisible = false;
             Antwoord1C.IsVisible = false;
-            Antwoord2A.IsVisible = true;
-            Antwoord2B.IsVisible = true;
-            Antwoord2C.IsVisible = true;
             Vraag1.IsVisible = false;
             Vraag2.IsVisible = true;
             Image1.IsVisible = false;
             Image2.IsVisible = true;
-            QueryQuiz = QueryQuiz + "Care = ('weinig' OR 'laag') ";
+
+            Antwoorden = Antwoorden + "1A";
+
+            Antwoord2A.IsVisible = true;
+            Antwoord2B.IsVisible = true;
+            Antwoord2C.IsVisible = true;
+
+            QueryQuiz = QueryQuiz + "Care = 'weinig' ";
 
         }
 
@@ -164,28 +169,35 @@ namespace Prototype1.Views
             Antwoord1A.IsVisible = false;
             Antwoord1B.IsVisible = false;
             Antwoord1C.IsVisible = false;
-            Antwoord2A.IsVisible = true;
-            Antwoord2B.IsVisible = true;
-            Antwoord2C.IsVisible = true;
             Vraag1.IsVisible = false;
             Vraag2.IsVisible = true;
             Image1.IsVisible = false;
             Image2.IsVisible = true;
+            Antwoorden = Antwoorden + "1B";
+
+            Antwoord2A.IsVisible = true;
+            Antwoord2B.IsVisible = true;
+            Antwoord2C.IsVisible = true;
+
             QueryQuiz = QueryQuiz + "Care = 'gemiddeld' ";
         }
 
         void Answer1C(object sender, System.EventArgs e)
         {
+            
             Antwoord1A.IsVisible = false;
             Antwoord1B.IsVisible = false;
             Antwoord1C.IsVisible = false;
-            Antwoord2A.IsVisible = true;
-            Antwoord2B.IsVisible = true;
-            Antwoord2C.IsVisible = true;
             Vraag1.IsVisible = false;
             Vraag2.IsVisible = true;
             Image1.IsVisible = false;
             Image2.IsVisible = true;
+            Antwoorden = Antwoorden + "1C";
+
+            Antwoord2A.IsVisible = true;
+            Antwoord2B.IsVisible = true;
+            Antwoord2C.IsVisible = true;
+
             QueryQuiz = QueryQuiz + "Care = 'veel' ";
         }
         //Vraag 2
@@ -194,13 +206,16 @@ namespace Prototype1.Views
             Antwoord2A.IsVisible = false;
             Antwoord2B.IsVisible = false;
             Antwoord2C.IsVisible = false;
-            Antwoord3A.IsVisible = true;
-            Antwoord3B.IsVisible = true;
             Vraag2.IsVisible = false;
             Vraag3.IsVisible = true;
             Image2.IsVisible = false;
             Image3.IsVisible = true;
-            QueryQuiz = QueryQuiz + "AND (TypeOne = 'gezeldschap' OR TypeTwo = 'gezelschap') ";
+            Antwoorden = Antwoorden + "2A";
+
+            Antwoord3A.IsVisible = true;
+            Antwoord3B.IsVisible = true;
+
+            QueryQuiz = QueryQuiz + "AND (TypeOne = 'gezelschap' OR TypeTwo = 'gezelschap') ";
         }
 
         void Answer2B(object sender, System.EventArgs e)
@@ -208,12 +223,15 @@ namespace Prototype1.Views
             Antwoord2A.IsVisible = false;
             Antwoord2B.IsVisible = false;
             Antwoord2C.IsVisible = false;
-            Antwoord3A.IsVisible = true;
-            Antwoord3B.IsVisible = true;
             Image2.IsVisible = false;
             Image3.IsVisible = true;
             Vraag2.IsVisible = false;
             Vraag3.IsVisible = true;
+            Antwoorden = Antwoorden + "2B";
+
+            Antwoord3A.IsVisible = true;
+            Antwoord3B.IsVisible = true;
+
             QueryQuiz = QueryQuiz + "AND (TypeOne = 'werk' OR TypeTwo = 'werk') ";
         }
 
@@ -222,13 +240,32 @@ namespace Prototype1.Views
             Antwoord2A.IsVisible = false;
             Antwoord2B.IsVisible = false;
             Antwoord2C.IsVisible = false;
-            Antwoord3A.IsVisible = true;
-            Antwoord3B.IsVisible = true;
             Image2.IsVisible = false;
-            Image3.IsVisible = true;
             Vraag2.IsVisible = false;
-            Vraag3.IsVisible = true;
+            Antwoorden = Antwoorden + "2C";
             QueryQuiz = QueryQuiz + "AND (TypeOne = 'jacht' OR TypeTwo = 'jacht') ";
+
+
+
+            if (Antwoorden != "1C2C")
+            {
+                Antwoord3B.IsVisible = true;
+                Image3.IsVisible = true;
+                Vraag3.IsVisible = true;
+                Antwoord3A.IsVisible = true;
+            }
+
+            if (Antwoorden == "1C2C")
+            {
+                Antwoord4A.IsVisible = false;
+                Antwoord4B.IsVisible = true;
+                Antwoord4C.IsVisible = true;
+                Image4.IsVisible = true;
+                Vraag4.IsVisible = true;
+                Antwoorden = Antwoorden + "3A";
+            }
+
+
 
         }
 
@@ -237,28 +274,186 @@ namespace Prototype1.Views
         {
             Antwoord3A.IsVisible = false;
             Antwoord3B.IsVisible = false;
-            Antwoord4A.IsVisible = true;
-            Antwoord4B.IsVisible = true;
-            Antwoord4C.IsVisible = true;
             Vraag3.IsVisible = false;
-            Vraag4.IsVisible = true;
             Image3.IsVisible = false;
-            Image4.IsVisible = true;
             QueryQuiz = QueryQuiz + "AND Childfriendly = 'Kindvriendelijk' ";
+            Antwoorden = Antwoorden + "3A";
+            Antwoord4A.IsVisible = true;
+
+            Antwoord4C.IsVisible = true;
+
+            Image4.IsVisible = true;
+            Vraag4.IsVisible = true;
+
+            if (Antwoorden == "1A2B3A"){
+                Antwoord4A.IsVisible = false;
+            }
+
+
+            if (Antwoorden == "1B2B3A")
+            {
+                Antwoord4A.IsVisible = false;
+            }
+
+
+            if (Antwoorden == "1C2B3A")
+            {
+                Antwoord4A.IsVisible = false;
+            }
+
+            if (Antwoorden == "1A2C3A")
+            {
+                Antwoord4A.IsVisible = false;
+            }
+
+
+            if (Antwoorden == "1B2C3A")
+            {
+                Antwoord4A.IsVisible = false;
+                Antwoord4C.IsVisible = false;
+                Image4.IsVisible = false;
+                Vraag4.IsVisible = false;
+                Antwoord5A.IsVisible = true;
+                Antwoord5B.IsVisible = true;
+                Antwoord5C.IsVisible = true;
+                Vraag5.IsVisible = true;
+                Image5.IsVisible = true;
+                Antwoorden = Antwoorden + "4C";
+            }
+
+
         }
 
-        void Answer3B(object sender, System.EventArgs e)
+        async void Answer3B(object sender, System.EventArgs e)
         {
             Antwoord3A.IsVisible = false;
             Antwoord3B.IsVisible = false;
+            Vraag3.IsVisible = false;
+            
+            Image3.IsVisible = false;
+            
+            Antwoorden = Antwoorden + "3B";
+            QueryQuiz = QueryQuiz + "AND Childfriendly = 'Niet kindvriendelijk' ";
+
+            if (Antwoorden == "1C2B3B") {
+                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+            }
+
+            if (Antwoorden == "1C2A3B")
+            {
+                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+            }
+            
+            if (Antwoorden == "1B2C3B")
+            {
+                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+            }
             Antwoord4A.IsVisible = true;
             Antwoord4B.IsVisible = true;
             Antwoord4C.IsVisible = true;
-            Vraag3.IsVisible = false;
-            Vraag4.IsVisible = true;
-            Image3.IsVisible = false;
             Image4.IsVisible = true;
-            QueryQuiz = QueryQuiz + "AND Childfriendly = 'Niet kindvriendelijk' ";
+            Vraag4.IsVisible = true;
+
+            if (Antwoorden == "1A2A3B") {
+                Antwoord4A.IsVisible = false;
+            }
+
+
+
+
+
+            if (Antwoorden == "1B2B3B")
+            {
+                Antwoord4A.IsVisible = false;
+            }
+
+            if (Antwoorden == "1C2B3B")
+            {
+                Antwoord4A.IsVisible = false;
+            }
+
+
+
+
+            if (Antwoorden == "1A2A3B")
+            {
+                Antwoord4B.IsVisible = false;
+            }
+
+            if (Antwoorden == "1A2C3B")
+            {
+                Antwoord4B.IsVisible = false;
+            }
+
+            if (Antwoorden == "1A2B3B")
+            {
+                Antwoord4A.IsVisible = false;
+                Antwoord4B.IsVisible = false;
+                Antwoord4C.IsVisible = false;
+                Image4.IsVisible = false;
+                Vraag4.IsVisible = false;
+                Antwoord5A.IsVisible = true;
+                Antwoord5B.IsVisible = true;
+                Antwoord5C.IsVisible = true;
+                Image5.IsVisible = true;
+                Vraag5.IsVisible = true;
+                Antwoorden = Antwoorden + "4C";
+                Antwoord4B.IsVisible = false;
+            }
+
+            if (Antwoorden == "1C2C3B")
+            {
+                Antwoord4A.IsVisible = false;
+                Antwoord4B.IsVisible = false;
+                Antwoord4C.IsVisible = false;
+                Image4.IsVisible = false;
+                Vraag4.IsVisible = false;
+                Antwoord5A.IsVisible = true;
+                Antwoord5B.IsVisible = true;
+                Antwoord5C.IsVisible = true;
+                Image5.IsVisible = true;
+                Vraag5.IsVisible = true;
+                Antwoorden = Antwoorden + "4C";
+                Antwoord4B.IsVisible = false;
+            }
+
+            if (Antwoorden == "1B2C3B")
+            {
+                Antwoord4A.IsVisible = false;
+                Antwoord4B.IsVisible = false;
+                Antwoord4C.IsVisible = false;
+                Image4.IsVisible = false;
+                Vraag4.IsVisible = false;
+                Antwoord5A.IsVisible = true;
+                Antwoord5B.IsVisible = true;
+                Antwoord5C.IsVisible = true;
+                Image5.IsVisible = true;
+                Vraag5.IsVisible = true;
+                Antwoorden = Antwoorden + "4C";
+                Antwoord4B.IsVisible = false;
+            }
+
+            if (Antwoorden == "1B2A3B")
+            {
+                Antwoord4A.IsVisible = false;
+                Antwoord4B.IsVisible = false;
+                Antwoord4C.IsVisible = false;
+                Image4.IsVisible = false;
+                Vraag4.IsVisible = false;
+                Antwoord5A.IsVisible = true;
+                Antwoord5B.IsVisible = true;
+                Antwoord5C.IsVisible = true;
+                Image5.IsVisible = true;
+                Vraag5.IsVisible = true;
+                Antwoorden = Antwoorden + "4B";
+                Antwoord4B.IsVisible = false;
+            }
 
         }
 
@@ -277,61 +472,210 @@ namespace Prototype1.Views
         //}
 
         //Vraag 4
-        void Answer4A(object sender, System.EventArgs e)
+        async void Answer4A(object sender, System.EventArgs e)
         {
             Antwoord4A.IsVisible = false;
             Antwoord4B.IsVisible = false;
             Antwoord4C.IsVisible = false;
+            Vraag4.IsVisible = false;
+            Image4.IsVisible = false;
+            QueryQuiz = QueryQuiz + "AND Exercise = 'weinig' ";
+            Antwoorden = Antwoorden + "4A";
+
+            if (Antwoorden == "1A2C3A4A")
+            {
+                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+            }
+
+            if (Antwoorden == "1A2C3B4A")
+            {
+                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+            }
+
             Antwoord5A.IsVisible = true;
             Antwoord5B.IsVisible = true;
             Antwoord5C.IsVisible = true;
-            Vraag4.IsVisible = false;
-            Vraag5.IsVisible = true;
-            Image4.IsVisible = false;
             Image5.IsVisible = true;
-            QueryQuiz = QueryQuiz + "AND Exercise = 'laag' ";
+            Vraag5.IsVisible = true;
+
+            if (Antwoorden == "1C2A3A4A")
+            {
+                Antwoord5A.IsVisible = false;
+            }
+
+            if (Antwoorden == "1B2A3A4A")
+            {
+                Antwoord5B.IsVisible = false;
+            }
+
+            if (Antwoorden == "1C2A3A4A")
+            {
+                Antwoord5B.IsVisible = false;
+            }
+
 
 
         }
 
-        void Answer4B(object sender, System.EventArgs e)
+        async void Answer4B(object sender, System.EventArgs e)
         {
             Antwoord4A.IsVisible = false;
             Antwoord4B.IsVisible = false;
             Antwoord4C.IsVisible = false;
-            Antwoord5A.IsVisible = true;
-            Antwoord5B.IsVisible = true;
-            Antwoord5C.IsVisible = true;
             Vraag4.IsVisible = false;
-            Vraag5.IsVisible = true;
             Image4.IsVisible = false;
-            Image5.IsVisible = true;
+            Antwoorden = Antwoorden + "4B";
             QueryQuiz = QueryQuiz + "AND Exercise = 'gemiddeld' ";
+
+            if (Antwoorden == "1B2B3A4B")
+            {
+                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+            }
+
+
+            if (Antwoorden == "1B2B3B4B")
+            {
+                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+            }
+
+
+            Antwoord5A.IsVisible = true;
+            Antwoord5B.IsVisible = true;
+            Antwoord5C.IsVisible = true;
+            Image5.IsVisible = true;
+            Vraag5.IsVisible = true;
+
+            if (Antwoorden == "1C2B3A4B")
+            {
+                Antwoord5A.IsVisible = false;
+            }
+
+            if (Antwoorden == "1A2B3A4B")
+            {
+                Antwoord5C.IsVisible = false;
+            }
+
+            if (Antwoorden == "1C2C3A4B")
+            {
+                Antwoord5C.IsVisible = false;
+            }
+
+            if (Antwoorden == "1B2A3B4B")
+            {
+                Antwoord5C.IsVisible = false;
+            }
+
         }
 
-        void Answer4C(object sender, System.EventArgs e)
+
+        async void Answer4C(object sender, System.EventArgs e)
         {
             Antwoord4A.IsVisible = false;
             Antwoord4B.IsVisible = false;
             Antwoord4C.IsVisible = false;
+            Vraag4.IsVisible = false;
+            Image4.IsVisible = false;
+
+            Antwoorden = Antwoorden + "4C";
+            QueryQuiz = QueryQuiz + "AND Exercise = 'veel' ";
+
             Antwoord5A.IsVisible = true;
             Antwoord5B.IsVisible = true;
             Antwoord5C.IsVisible = true;
-            Vraag4.IsVisible = false;
-            Vraag5.IsVisible = true;
-            Image4.IsVisible = false;
             Image5.IsVisible = true;
-            QueryQuiz = QueryQuiz + "AND Exercise = 'veel' ";
+            Vraag5.IsVisible = true;
+
+            if (Antwoorden == "1C2C3A4C")
+            {
+                Antwoord5A.IsVisible = false;
+            }
+
+            if (Antwoorden == "1B2B3B4C")
+            {
+                Antwoord5A.IsVisible = false;
+            }
+
+            if (Antwoorden == "1A2B3A4C")
+            {
+                Antwoord5B.IsVisible = false;
+            }
+
+            if (Antwoorden == "1A2A3B4C")
+            {
+                Antwoord5B.IsVisible = false;
+            }
+
+
+
+            if (Antwoorden == "1C2A3B4C")
+            {
+                Antwoord5B.IsVisible = false;
+            }
+
+
+            if (Antwoorden == "1C2B3B4C")
+            {
+                Antwoord5B.IsVisible = false;
+            }
+
+            if (Antwoorden == "1B2C3B4C")
+            {
+                Antwoord5B.IsVisible = false;
+            }
+
+
+
+            if (Antwoorden == "1A2C3A4C")
+            {
+                Antwoord5C.IsVisible = false;
+            }
+
+            if (Antwoorden == "1B2A3B4C")
+            {
+                Antwoorden = Antwoorden + "5A";
+                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+            }
+
+            if (Antwoorden == "1A2B3B4C")
+            {
+                Antwoord5C.IsVisible = false;
+            }
+
+            if (Antwoorden == "1A2C3B4C")
+            {
+                Antwoord5C.IsVisible = false;
+            }
+
+            if (Antwoorden == "1C2C3B4C")
+            {
+                Antwoorden = Antwoorden + "5A";
+                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+            }
         }
 
-        //Vraag 5
-        async void Answer5A(object sender, System.EventArgs e)
+
+            //Vraag 5
+            async void Answer5A(object sender, System.EventArgs e)
         {
             Antwoord5A.IsVisible = false;
             Antwoord5B.IsVisible = false;
             Antwoord5C.IsVisible = false;
             Image5.IsVisible = false;
             Vraag5.IsVisible = false;
+            Antwoorden = Antwoorden + "5A";
+
             QueryQuiz = QueryQuiz + "AND Fur = 'kort' ;";
             Console.WriteLine(QueryQuiz);
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
@@ -346,6 +690,8 @@ namespace Prototype1.Views
             Antwoord5C.IsVisible = false;
             Image5.IsVisible = false;
             Vraag5.IsVisible = false;
+            Antwoorden = Antwoorden + "5B";
+
             QueryQuiz = QueryQuiz + "AND Fur = 'gemiddeld' ;";
             Console.WriteLine(QueryQuiz);
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
@@ -360,6 +706,8 @@ namespace Prototype1.Views
             Antwoord5C.IsVisible = false;
             Image5.IsVisible = false;
             Vraag5.IsVisible = false;
+            Antwoorden = Antwoorden + "5C";
+
             QueryQuiz = QueryQuiz + "AND Fur = 'lang' ;";
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             var dbPath = Path.Combine(targetPath, "DogDBFour.db");
