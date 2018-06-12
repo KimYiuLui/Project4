@@ -262,6 +262,7 @@ namespace Prototype1.Views
                 Antwoord4C.IsVisible = true;
                 Image4.IsVisible = true;
                 Vraag4.IsVisible = true;
+                QueryQuiz = QueryQuiz + "AND Childfriendly = 'Kindvriendelijk' ";
                 Antwoorden = Antwoorden + "3A";
             }
 
@@ -319,6 +320,7 @@ namespace Prototype1.Views
                 Antwoord5C.IsVisible = true;
                 Vraag5.IsVisible = true;
                 Image5.IsVisible = true;
+                QueryQuiz = QueryQuiz + "AND Exercise = 'veel' ";
                 Antwoorden = Antwoorden + "4C";
             }
 
@@ -370,7 +372,7 @@ namespace Prototype1.Views
                 Image4.IsVisible = false;
                 Vraag4.IsVisible = false;
                 Antwoord5A.IsVisible = true;
-                Antwoord5B.IsVisible = true;
+                Antwoord5B.IsVisible = false;
                 Antwoord5C.IsVisible = true;
                 Image5.IsVisible = true;
                 Vraag5.IsVisible = true;
@@ -406,6 +408,7 @@ namespace Prototype1.Views
                 Antwoord5C.IsVisible = true;
                 Image5.IsVisible = true;
                 Vraag5.IsVisible = true;
+                QueryQuiz = QueryQuiz + "AND Exercise = 'veel' ";
                 Antwoorden = Antwoorden + "4C";
                 Antwoord4B.IsVisible = false;
             }
@@ -422,6 +425,7 @@ namespace Prototype1.Views
                 Antwoord5C.IsVisible = true;
                 Image5.IsVisible = true;
                 Vraag5.IsVisible = true;
+                QueryQuiz = QueryQuiz + "AND Exercise = 'veel' ";
                 Antwoorden = Antwoorden + "4C";
                 Antwoord4B.IsVisible = false;
             }
@@ -438,6 +442,7 @@ namespace Prototype1.Views
                 Antwoord5C.IsVisible = true;
                 Image5.IsVisible = true;
                 Vraag5.IsVisible = true;
+                QueryQuiz = QueryQuiz + "AND Exercise = 'veel' ";
                 Antwoorden = Antwoorden + "4C";
                 Antwoord4B.IsVisible = false;
             }
@@ -454,6 +459,7 @@ namespace Prototype1.Views
                 Antwoord5C.IsVisible = true;
                 Image5.IsVisible = true;
                 Vraag5.IsVisible = true;
+                QueryQuiz = QueryQuiz + "AND Exercise = 'gemiddeld' ";
                 Antwoorden = Antwoorden + "4B";
                 Antwoord4B.IsVisible = false;
             }
@@ -505,11 +511,6 @@ namespace Prototype1.Views
             Image5.IsVisible = true;
             Vraag5.IsVisible = true;
 
-            if (Antwoorden == "1C2A3A4A")
-            {
-                Antwoord5A.IsVisible = false;
-            }
-
             if (Antwoorden == "1B2A3A4A")
             {
                 Antwoord5B.IsVisible = false;
@@ -517,7 +518,10 @@ namespace Prototype1.Views
 
             if (Antwoorden == "1C2A3A4A")
             {
-                Antwoord5B.IsVisible = false;
+                QueryQuiz = QueryQuiz + "AND Fur = 'lang' ;";
+                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
             }
 
 
@@ -544,6 +548,7 @@ namespace Prototype1.Views
 
             if (Antwoorden == "1B2B3B4B")
             {
+
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
                 var dbPath = Path.Combine(targetPath, "DogDBFour.db");
                 await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
