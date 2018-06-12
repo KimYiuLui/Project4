@@ -311,6 +311,7 @@ namespace Prototype1.Views
 
             if (Antwoorden == "1B2C3A")
             {
+                Antwoord4B.IsVisible = false;
                 Antwoord4A.IsVisible = false;
                 Antwoord4C.IsVisible = false;
                 Image4.IsVisible = false;
@@ -456,7 +457,7 @@ namespace Prototype1.Views
                 Vraag4.IsVisible = false;
                 Antwoord5A.IsVisible = true;
                 Antwoord5B.IsVisible = true;
-                Antwoord5C.IsVisible = true;
+                Antwoord5C.IsVisible = false;
                 Image5.IsVisible = true;
                 Vraag5.IsVisible = true;
                 QueryQuiz = QueryQuiz + "AND Exercise = 'gemiddeld' ";
