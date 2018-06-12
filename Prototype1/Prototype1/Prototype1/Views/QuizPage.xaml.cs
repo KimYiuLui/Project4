@@ -280,7 +280,7 @@ namespace Prototype1.Views
             QueryQuiz = QueryQuiz + "AND Childfriendly = 'Kindvriendelijk' ";
             Antwoorden = Antwoorden + "3A";
             Antwoord4A.IsVisible = true;
-
+            Antwoord4B.IsVisible = true;
             Antwoord4C.IsVisible = true;
 
             Image4.IsVisible = true;
@@ -649,6 +649,7 @@ namespace Prototype1.Views
             if (Antwoorden == "1B2A3B4C")
             {
                 Antwoorden = Antwoorden + "5A";
+                QueryQuiz = QueryQuiz + "AND Fur = 'kort' ;";
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
                 var dbPath = Path.Combine(targetPath, "DogDBFour.db");
                 await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
@@ -667,6 +668,7 @@ namespace Prototype1.Views
             if (Antwoorden == "1C2C3B4C")
             {
                 Antwoorden = Antwoorden + "5A";
+                QueryQuiz = QueryQuiz + "AND Fur = 'kort' ;";
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
                 var dbPath = Path.Combine(targetPath, "DogDBFour.db");
                 await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
