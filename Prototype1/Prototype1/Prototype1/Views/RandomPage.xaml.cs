@@ -86,11 +86,6 @@ namespace Prototype1.Views
 
         }
 
-        async void Homeclicked(object sender, EventArgs e)
-        {
-            await Navigation.PopToRootAsync();
-        }
-
         async void RandomClicked(object sender, EventArgs e)
         {
             try

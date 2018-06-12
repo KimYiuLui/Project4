@@ -59,12 +59,5 @@ namespace Prototype1.Views
                 await Navigation.PushAsync(page); //navigate to "DoggoDetail" and add the dbPath and the selected doggo
             }
         }
-
-
-
-        async void ToolbarItem_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PopToRootAsync();
-        }
     }
 }

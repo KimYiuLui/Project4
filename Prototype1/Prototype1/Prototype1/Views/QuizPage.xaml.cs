@@ -343,21 +343,27 @@ namespace Prototype1.Views
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
                 var dbPath = Path.Combine(targetPath, "DogDBFour.db");
-                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+                var page = new QuizResultaat(dbPath, (QueryQuiz));
+                Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
+                await Navigation.PopAsync();
             }
 
             if (Antwoorden == "1C2A3B")
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
                 var dbPath = Path.Combine(targetPath, "DogDBFour.db");
-                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+                var page = new QuizResultaat(dbPath, (QueryQuiz));
+                Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
+                await Navigation.PopAsync();
             }
 
             if (Antwoorden == "1B2C3B")
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
                 var dbPath = Path.Combine(targetPath, "DogDBFour.db");
-                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+                var page = new QuizResultaat(dbPath, (QueryQuiz));
+                Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
+                await Navigation.PopAsync();
             }
             Antwoord4A.IsVisible = true;
             Antwoord4B.IsVisible = true;
@@ -496,14 +502,18 @@ namespace Prototype1.Views
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
                 var dbPath = Path.Combine(targetPath, "DogDBFour.db");
-                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+                var page = new QuizResultaat(dbPath, (QueryQuiz));
+                Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
+                await Navigation.PopAsync();
             }
 
             if (Antwoorden == "1A2C3B4A")
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
                 var dbPath = Path.Combine(targetPath, "DogDBFour.db");
-                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+                var page = new QuizResultaat(dbPath, (QueryQuiz));
+                Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
+                await Navigation.PopAsync();
             }
 
 
@@ -512,7 +522,9 @@ namespace Prototype1.Views
                 QueryQuiz = QueryQuiz + "AND Fur = 'lang' ;";
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
                 var dbPath = Path.Combine(targetPath, "DogDBFour.db");
-                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+                var page = new QuizResultaat(dbPath, (QueryQuiz));
+                Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
+                await Navigation.PopAsync();
             }
 
 
@@ -547,7 +559,9 @@ namespace Prototype1.Views
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
                 var dbPath = Path.Combine(targetPath, "DogDBFour.db");
-                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+                var page = new QuizResultaat(dbPath, (QueryQuiz));
+                Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
+                await Navigation.PopAsync();
             }
 
 
@@ -556,7 +570,9 @@ namespace Prototype1.Views
 
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
                 var dbPath = Path.Combine(targetPath, "DogDBFour.db");
-                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+                var page = new QuizResultaat(dbPath, (QueryQuiz));
+                Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
+                await Navigation.PopAsync();
             }
 
 
@@ -657,7 +673,9 @@ namespace Prototype1.Views
                 QueryQuiz = QueryQuiz + "AND Fur = 'kort' ;";
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
                 var dbPath = Path.Combine(targetPath, "DogDBFour.db");
-                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+                var page = new QuizResultaat(dbPath, (QueryQuiz));
+                Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
+                await Navigation.PopAsync();
             }
 
             if (Antwoorden == "1A2B3B4C")
@@ -676,7 +694,9 @@ namespace Prototype1.Views
                 QueryQuiz = QueryQuiz + "AND Fur = 'kort' ;";
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
                 var dbPath = Path.Combine(targetPath, "DogDBFour.db");
-                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+                var page = new QuizResultaat(dbPath, (QueryQuiz));
+                Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
+                await Navigation.PopAsync();
             }
         }
 
@@ -695,7 +715,9 @@ namespace Prototype1.Views
             Console.WriteLine(QueryQuiz);
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             var dbPath = Path.Combine(targetPath, "DogDBFour.db");
-            await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+            var page = new QuizResultaat(dbPath, (QueryQuiz));
+            Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
+            await Navigation.PopAsync();
         }
 
         async void Answer5B(object sender, System.EventArgs e)
@@ -711,7 +733,9 @@ namespace Prototype1.Views
             Console.WriteLine(QueryQuiz);
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             var dbPath = Path.Combine(targetPath, "DogDBFour.db");
-            await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+            var page = new QuizResultaat(dbPath, (QueryQuiz));
+            Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
+            await Navigation.PopAsync();
         }
 
         async void Answer5C(object sender, System.EventArgs e)
@@ -726,7 +750,9 @@ namespace Prototype1.Views
             QueryQuiz = QueryQuiz + "AND Fur = 'lang' ;";
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             var dbPath = Path.Combine(targetPath, "DogDBFour.db");
-            await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+            var page = new QuizResultaat(dbPath, (QueryQuiz));
+            Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
+            await Navigation.PopAsync();
         }
 
         //Vraag 6

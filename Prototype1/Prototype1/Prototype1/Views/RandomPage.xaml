@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Prototype1.Views.RandomPage" Title="Informatie pagina" NavigationPage.HasBackButton="False" BackgroundImage="{DynamicResource backgroundImg}">
+             x:Class="Prototype1.Views.RandomPage" Title="Informatie pagina" NavigationPage.HasBackButton="True" BackgroundImage="{DynamicResource backgroundImg}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Icon="home.png" Clicked="Homeclicked"/>
         <ToolbarItem x:Name="FavXAML"/>
         <ToolbarItem Icon="random.png" Clicked="RandomClicked" Text="willekeurig"/>
     </ContentPage.ToolbarItems>
