@@ -35,7 +35,7 @@
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,20,0,0"/>
                 <!--2de Vraag-->
-                <Button x:Name="Antwoord2A_Xaml" IsVisible="False"  Text="Gezeldschap" Clicked="Answer2A"
+                <Button x:Name="Antwoord2A_Xaml" IsVisible="False"  Text="Gezelschap" Clicked="Answer2A"
                     BorderRadius="10" BorderWidth="1" BorderColor="Black" 
                     HorizontalOptions="Center" VerticalOptions="Center" 
                     WidthRequest="200" Margin="0,0,0,0"/>

@@ -405,7 +405,7 @@ namespace Prototype1.Views
                 Vraag4.IsVisible = false;
                 Antwoord5A.IsVisible = true;
                 Antwoord5B.IsVisible = true;
-                Antwoord5C.IsVisible = true;
+                Antwoord5C.IsVisible = false;
                 Image5.IsVisible = true;
                 Vraag5.IsVisible = true;
                 QueryQuiz = QueryQuiz + "AND Exercise = 'veel' ";
@@ -505,6 +505,16 @@ namespace Prototype1.Views
                 await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
             }
 
+
+            if (Antwoorden == "1C2A3A4A")
+            {
+                QueryQuiz = QueryQuiz + "AND Fur = 'lang' ;";
+                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
+            }
+
+
             Antwoord5A.IsVisible = true;
             Antwoord5B.IsVisible = true;
             Antwoord5C.IsVisible = true;
@@ -516,13 +526,7 @@ namespace Prototype1.Views
                 Antwoord5B.IsVisible = false;
             }
 
-            if (Antwoorden == "1C2A3A4A")
-            {
-                QueryQuiz = QueryQuiz + "AND Fur = 'lang' ;";
-                string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
-                await Navigation.PushAsync(new QuizResultaat(dbPath, (QueryQuiz)));
-            }
+
 
 
 
