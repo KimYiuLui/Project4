@@ -342,7 +342,7 @@ namespace Prototype1.Views
             if (Antwoorden == "1C2B3B")
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFive.db");
                 var page = new QuizResultaat(dbPath, (QueryQuiz));
                 Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
                 await Navigation.PopAsync();
@@ -351,7 +351,7 @@ namespace Prototype1.Views
             if (Antwoorden == "1C2A3B")
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFive.db");
                 var page = new QuizResultaat(dbPath, (QueryQuiz));
                 Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
                 await Navigation.PopAsync();
@@ -360,7 +360,7 @@ namespace Prototype1.Views
             if (Antwoorden == "1B2C3B")
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFive.db");
                 var page = new QuizResultaat(dbPath, (QueryQuiz));
                 Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
                 await Navigation.PopAsync();
@@ -501,7 +501,7 @@ namespace Prototype1.Views
             if (Antwoorden == "1A2C3A4A")
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFive.db");
                 var page = new QuizResultaat(dbPath, (QueryQuiz));
                 Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
                 await Navigation.PopAsync();
@@ -510,7 +510,7 @@ namespace Prototype1.Views
             if (Antwoorden == "1A2C3B4A")
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFive.db");
                 var page = new QuizResultaat(dbPath, (QueryQuiz));
                 Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
                 await Navigation.PopAsync();
@@ -521,7 +521,7 @@ namespace Prototype1.Views
             {
                 QueryQuiz = QueryQuiz + "AND Fur = 'lang' ;";
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFive.db");
                 var page = new QuizResultaat(dbPath, (QueryQuiz));
                 Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
                 await Navigation.PopAsync();
@@ -558,7 +558,7 @@ namespace Prototype1.Views
             if (Antwoorden == "1B2B3A4B")
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFive.db");
                 var page = new QuizResultaat(dbPath, (QueryQuiz));
                 Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
                 await Navigation.PopAsync();
@@ -569,7 +569,7 @@ namespace Prototype1.Views
             {
 
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFive.db");
                 var page = new QuizResultaat(dbPath, (QueryQuiz));
                 Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
                 await Navigation.PopAsync();
@@ -672,7 +672,7 @@ namespace Prototype1.Views
                 Antwoorden = Antwoorden + "5A";
                 QueryQuiz = QueryQuiz + "AND Fur = 'kort' ;";
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFive.db");
                 var page = new QuizResultaat(dbPath, (QueryQuiz));
                 Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
                 await Navigation.PopAsync();
@@ -693,7 +693,7 @@ namespace Prototype1.Views
                 Antwoorden = Antwoorden + "5A";
                 QueryQuiz = QueryQuiz + "AND Fur = 'kort' ;";
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFive.db");
                 var page = new QuizResultaat(dbPath, (QueryQuiz));
                 Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
                 await Navigation.PopAsync();
@@ -714,7 +714,7 @@ namespace Prototype1.Views
             QueryQuiz = QueryQuiz + "AND Fur = 'kort' ;";
             Console.WriteLine(QueryQuiz);
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+            var dbPath = Path.Combine(targetPath, "DogDBFive.db");
             var page = new QuizResultaat(dbPath, (QueryQuiz));
             Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
             await Navigation.PopAsync();
@@ -732,7 +732,7 @@ namespace Prototype1.Views
             QueryQuiz = QueryQuiz + "AND Fur = 'gemiddeld' ;";
             Console.WriteLine(QueryQuiz);
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+            var dbPath = Path.Combine(targetPath, "DogDBFive.db");
             var page = new QuizResultaat(dbPath, (QueryQuiz));
             Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
             await Navigation.PopAsync();
@@ -749,7 +749,7 @@ namespace Prototype1.Views
 
             QueryQuiz = QueryQuiz + "AND Fur = 'lang' ;";
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+            var dbPath = Path.Combine(targetPath, "DogDBFive.db");
             var page = new QuizResultaat(dbPath, (QueryQuiz));
             Navigation.InsertPageBefore(page, Navigation.NavigationStack[Navigation.NavigationStack.Count - 1]);
             await Navigation.PopAsync();

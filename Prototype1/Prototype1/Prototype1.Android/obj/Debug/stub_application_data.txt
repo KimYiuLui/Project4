@@ -1,2 +1,2 @@
 android.app.Application
-com.companyname.Prototype1
+DogSearch.DogSearch

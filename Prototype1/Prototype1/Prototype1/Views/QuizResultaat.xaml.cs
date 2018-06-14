@@ -51,7 +51,7 @@ namespace Prototype1.Views
             if (this.doggo != null)
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFive.db");
                 var page = new DoggoDetail(dbPath, doggo);
                 page.BindingContext = doggo;
 

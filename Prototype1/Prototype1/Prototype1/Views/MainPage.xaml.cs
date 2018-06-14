@@ -39,14 +39,14 @@ Dit project is gemaakt door:
         async void ZoekBtnClicked(object sender, System.EventArgs e)
         {
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal); // Path to find a file within the solution
-            var dbPath = Path.Combine(targetPath, "DogDBFour.db"); // using the path to look for the DogDBThree.db
+            var dbPath = Path.Combine(targetPath, "DogDBFive.db"); // using the path to look for the DogDBThree.db
             await Navigation.PushAsync(new Zoeken(dbPath)); //navigate to the page "Zoeken" and give the database path with it. 
         }
 
         async void TestBtnClicked(object sender, System.EventArgs e)
         {
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+            var dbPath = Path.Combine(targetPath, "DogDBFive.db");
             await Navigation.PushAsync(new QuizPage(dbPath));
         }
 
@@ -60,7 +60,7 @@ Dit project is gemaakt door:
             if (_doggos[randomdoggo] != null) // check if the random number is not null 
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFive.db");
                 var page = new RandomPage(dbPath, _doggos[randomdoggo]); // navigate to the "DoggoDetailpage" and give the dbPath and the data of the random dog with it
                 page.BindingContext = _doggos[randomdoggo]; // set the bindingcontext to the data of the random dog 
                 await Navigation.PushAsync(page);
@@ -109,7 +109,7 @@ Dit project is gemaakt door:
                 try
                 {
                     string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                    var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                    var dbPath = Path.Combine(targetPath, "DogDBFive.db");
                     await Navigation.PushAsync(new Favorieten(dbPath)); // navigate to the "Favorieten" list }
                 }
                 catch

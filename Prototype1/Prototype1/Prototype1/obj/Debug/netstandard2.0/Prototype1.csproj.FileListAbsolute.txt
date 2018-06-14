@@ -62,7 +62,6 @@ C:\Users\Imre\Documents\GitHub\Project4\Prototype1\Prototype1\Prototype1\obj\Deb
 C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\bin\Debug\netstandard2.0\Prototype1.deps.json
 C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\bin\Debug\netstandard2.0\Prototype1.dll
 C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\bin\Debug\netstandard2.0\Prototype1.pdb
-C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Prototype1.csprojAssemblyReference.cache
 C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Views\App.xaml.g.cs
 C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Views\DoggoDetail.xaml.g.cs
 C:\Users\K.Y\Desktop\Project4\Prototype1\Prototype1\Prototype1\obj\Debug\netstandard2.0\Views\Favorieten.xaml.g.cs

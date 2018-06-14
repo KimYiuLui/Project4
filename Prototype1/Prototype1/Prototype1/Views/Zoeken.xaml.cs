@@ -25,12 +25,17 @@ namespace Prototype1.Views
         }
         protected override async void OnAppearing()
         {
-            await _connection.CreateTableAsync<Doggo>(); // create a table in the databasefile. (if it already exist it won't create it)
-            var doggos = await _connection.QueryAsync<Doggo>("SELECT * FROM NewDoggo ORDER BY Name ASC"); //put everything of the database in a list
-            doggos.ToList();
-            _doggos = new List<Doggo>(doggos); // make a new list of "Doggo" and put the "doggoss" as the values for the new list
-            DoggoListView.ItemsSource = _doggos; // set the bindingcontext to the data of the dog 
-            base.OnAppearing();
+            try
+            {
+                await _connection.CreateTableAsync<Doggo>(); // create a table in the databasefile. (if it already exist it won't create it)
+                var doggos = await _connection.QueryAsync<Doggo>("SELECT * FROM NewDoggo ORDER BY Name ASC"); //put everything of the database in a list
+                doggos.ToList();
+                _doggos = new List<Doggo>(doggos); // make a new list of "Doggo" and put the "doggoss" as the values for the new list
+                DoggoListView.ItemsSource = _doggos; // set the bindingcontext to the data of the dog 
+                base.OnAppearing();
+            }
+            catch { }
+
         }
 
         void DoggoTapped(object sender, ItemTappedEventArgs e)
@@ -45,7 +50,7 @@ namespace Prototype1.Views
             if (this.doggo != null)
             {
                 string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-                var dbPath = Path.Combine(targetPath, "DogDBFour.db");
+                var dbPath = Path.Combine(targetPath, "DogDBFive.db");
                 var page = new DoggoDetail(dbPath, doggo); 
                 page.BindingContext = this.doggo; // set the binding context for the "DoggoDetail" page
                 await Navigation.PushAsync(page); //navigate to "DoggoDetail" and add the dbPath and the selected doggo
